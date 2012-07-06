@@ -1,0 +1,19 @@
+#nostalgia-navigation-menu ul > li {
+  margin:  0;
+}
+
+#nostalgia-navigation-menu div.bx-window {
+  height: 300px !important;
+}
+
+#nostalgia-navigation-menu li.pager a{
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border:  0;
+}
+
+#random-work {
+  height: 200px;
+  width: 320px;
+}

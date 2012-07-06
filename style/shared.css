@@ -1,0 +1,16 @@
+.content {
+  margin-top: 60px;
+}
+
+.content > header {
+  border-bottom:  1px solid #444;
+}
+
+section.works {
+  overflow:  hidden;
+  margin-top: 20px;
+}
+
+.carousel-inner img {
+  margin: 0 auto !important;
+}
