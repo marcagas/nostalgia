@@ -43,7 +43,7 @@ $(document).ready(function() {
       tab: 'right',
       className: 'about'
     },
-    'work_page.html' : {
+    'works.html' : {
       tab: 'left',
       className: 'work-page'
     },

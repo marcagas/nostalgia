@@ -32,3 +32,16 @@ span.author {
   display: block;
   font-size: 11px;
 }
+
+/* works page */
+#warning-info {
+  margin-bottom: 30px;
+}
+
+#warning-info img {
+  margin-left: 80px;
+}
+
+.page-works .works {
+  margin-bottom: 30px;
+}
