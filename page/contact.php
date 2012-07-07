@@ -1,13 +1,48 @@
 <?php require_once('../plugin/contact-form/config.php'); ?>
 
-<div class="page-contact clear-fix">
+<div class="page-contact clear-fix wrapper">
+    <header>
+        <h1>Contact Us</h1>
+        <h3>This is what our door looks like.</h3>
+    </header>
+    <div class="content" style="margin-top: 30px;">
+        <div class="row">
+            <div class="span4">
+                <p>Feel free to contact us from Monday - Friday , 8AM to 9PM weeknights.
+                    Meeting exciting people, starting new projects and concepts is what makes us tick.
+                    So go on, get in touch.. We work quite hard and luckily we LOVE it!
+                </p>
+                <p>
+                    One quick favor to make our conversation more productive,
+                    let us know what product or service you need help with.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span5">
+                <form class="well">
+                    <label>Name</label>
+                    <input type="text" class="span3" placeholder="name" />
+                    <label>Contact</label>
+                    <input type="text" class="span3" placeholder="contact" />
+                    <label>Email</label>
+                    <input type="text" class="span3" placeholder="email" />
+                    <label>Message</label>
+                    <textarea class="input-xlarge" rows="3"></textarea>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
-    <!-- Header + subtitle -->
+<!--     Header + subtitle
     <h1>Contact</h1>
     <p class="subtitle-paragraph bold">
         This is what our door looks like.
     </p>
-    <!--/ Header + subtitle -->
+    / Header + subtitle
 
     <p class="subtitle-paragraph">
         Feel free to contact us from Monday - Friday , 8AM to 9PM weeknights. Meeting exciting people, starting new projects and concepts is what makes us tick. So go on, get in touch.. We work quite hard and luckily we LOVE it!
@@ -19,7 +54,7 @@
 
     </p>
 
-    <!-- Personal details + Google map -->
+     Personal details + Google map
     <h3>On the map</h3>
     <div class="clear-fix contact-details">
 
@@ -43,9 +78,9 @@
         </div>
 
     </div>
-    <!-- /Personal details + Google map -->
+     /Personal details + Google map
 
-    <!-- Contact form -->
+     Contact form
     <h3>General Inquiry</h3>
     <form name="contact" id="contact" action="" method="post" class="clear-fix">
 
@@ -67,6 +102,6 @@
         </div>
 
     </form>
-    <!-- /Contact form -->
+     /Contact form -->
 
 </div>
