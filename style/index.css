@@ -17,3 +17,7 @@
   height: 200px;
   width: 320px;
 }
+
+#advertisers ul > li {
+  font-weight: bold;
+}

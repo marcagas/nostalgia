@@ -1,0 +1,15 @@
+#non-profit-package img {
+ padding-bottom: 15px;
+}
+
+#questions-to-ask{
+  margin-top: 20px;
+}
+
+#questions-to-ask table.table {
+  background: #fff;
+}
+
+#questions-to-ask table.table thead {
+  background:  #ccc;
+}
