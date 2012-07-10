@@ -46,6 +46,10 @@ $(document).ready(function()
             tab:'left',
             className:'checkmark'
         },
+        'works.html'		: {
+            tab:'right',
+            className:'features'
+        },
         'services.html'		: {
             tab:'right',
             className:'features'

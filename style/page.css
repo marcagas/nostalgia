@@ -608,4 +608,55 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
 
 .see-link {
     font-style: italic;
+    font-size: 20px;
+}
+
+/* bandanas - about */
+#bandanas {
+    padding: 7px;
+    border: 2px solid #444;
+    margin-bottom: 30px;
+}
+
+#bandanas > p {
+    font-family: 'Museo700';
+}
+
+
+/* advertisers */
+#advertisers {
+    margin-bottom: 20px;
+}
+
+#advertisers p.subtitle-paragraph {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#advertisers-list li {
+    font-size: 1.6em;
+    line-height: 1.55em;
+    color: #302929;
+    font-family: 'Nixie One', cursive;
+}
+
+#advertisers h2,
+#advertisers a{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Dosis';
+    margin-top: 20px;
+}
+
+.image-list img {
+    width: 230px;
+    height: 150px;
+}
+
+/* works */
+.works-list h2{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Dosis';
+    margin-bottom: 10px;
 }
