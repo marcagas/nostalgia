@@ -674,6 +674,13 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
     margin-bottom: 10px;
 }
 
+.great-works .work-title{
+    width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 /* testimonials page */
 .page-testimonials .testimonial-list-post-image {
     overflow: hidden;
@@ -732,3 +739,4 @@ ul.testimonial-list {
     color: #000;
     text-decoration: underline;
 }
+
