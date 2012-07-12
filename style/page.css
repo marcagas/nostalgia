@@ -660,3 +660,57 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
     font-family: 'Dosis';
     margin-bottom: 10px;
 }
+
+/* testimonials page */
+.page-testimonials .testimonial-list-post-image {
+    overflow: hidden;
+    width: 490px;
+}
+
+.page-testimonials .testimonial-list-post-image img {
+    width: 490px;
+}
+
+ul.testimonial-list {
+    margin-bottom: 40px;
+}
+
+.testimonial-list-post-image span.mist {
+    background-color: #444;
+}
+
+.testimonial-list-post-image.testimonial-1 {
+    height: 368px;
+}
+
+.testimonial-list-post-image.testimonial-1 a.fancybox-image {
+    width: 490px;
+    height: 368px;
+}
+
+.testimonial-list-post-image.testimonial-2 a.fancybox-image {
+    width: 490px;
+    height: 367px;
+}
+
+.testimonial-list-post-image.testimonial-2 {
+    height: 367px;
+}
+
+.testimonial-list-post-image.testimonial-3 a.fancybox-image {
+    width: 490px;
+    height: 368px;
+}
+
+.testimonial-list-post-image.testimonial-3 {
+    height: 368px;
+}
+
+.testimonial-list-post-image.testimonial-4 a.fancybox-image {
+    width: 490px;
+    height: 258px;
+}
+
+.testimonial-list-post-image.testimonial-3 {
+    height: 258px;
+}

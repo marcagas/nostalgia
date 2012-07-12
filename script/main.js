@@ -62,12 +62,16 @@ $(document).ready(function()
             tab:'right',
             className:'info'
         },
-        'contact.php'		: {
+        'testimonials.html'		: {
             tab:'left',
+            className:'testimonials'
+        },
+        'contact.php'		: {
+            tab:'right',
             className:'mail'
         },
         'post.html'			: {
-            tab:'right',
+            tab:'left',
             className:'info'
         }
     };
