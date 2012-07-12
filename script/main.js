@@ -1,7 +1,9 @@
 
 $(document).ready(function()
 {
-    var options={};
+    var options={
+
+    };
 
     var slide=
     [
@@ -75,6 +77,21 @@ $(document).ready(function()
             className:'info'
         }
     };
-
     $('#nostalgia').nostalgia(options,page,slide);
+
 });
+
+com = {};
+com.nostalgia = {};
+com.nostalgia.widgets = {};
+com.nostalgia.widgets.base = {
+    initFancyBoxLink: function() {
+        $('.fancybox-link').fancybox({
+            'transitionIn' : 'fade',
+            'transitionOut' : 'fade',
+            'speedIn' : 600,
+            'speedOut' : 200,
+            'overlayShow' : false
+        });
+    }
+};

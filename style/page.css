@@ -225,6 +225,21 @@ div.page-about
 
 }
 
+div.page-about #advertisers > i{
+    background-image:url('../image/icon/icon-1/icon_people.png');
+    position: absolute;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+#advertisers > p {
+    margin-left: 60px;
+}
+
+div.page-about #advertisers-list {
+    margin-left: 90px;
+}
+
 div.page-about ul.list-1
 {
 }
@@ -618,10 +633,9 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
     margin-bottom: 30px;
 }
 
-#bandanas > p {
-    font-family: 'Museo700';
+#bandanas p {
+    font-family: 'Dosis';
 }
-
 
 /* advertisers */
 #advertisers {
@@ -637,12 +651,11 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
     font-size: 1.6em;
     line-height: 1.55em;
     color: #302929;
-    font-family: 'Nixie One', cursive;
+    font-family: 'Dosis';
 }
 
 #advertisers h2,
 #advertisers a{
-    color: #fff;
     font-size: 18px;
     font-family: 'Dosis';
     margin-top: 20px;
@@ -713,4 +726,9 @@ ul.testimonial-list {
 
 .testimonial-list-post-image.testimonial-3 {
     height: 258px;
+}
+
+.emphasize {
+    color: #000;
+    text-decoration: underline;
 }
