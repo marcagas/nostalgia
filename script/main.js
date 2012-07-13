@@ -52,6 +52,10 @@ $(document).ready(function()
             tab:'right',
             className:'features'
         },
+        'pricing.html'          : {
+            tab: 'left',
+            className: 'pricing'
+        },
         'services.html'		: {
             tab:'right',
             className:'features'
