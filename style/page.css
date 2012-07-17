@@ -775,3 +775,31 @@ p.package-deal, p.money-required, p.executive-take {
     width: 340px;
     display: inline-block;
 }
+
+/* links */
+#side-navigation .home,
+#side-navigation .pricing {
+    background-color: #CBCF1A;
+}
+#side-navigation .home:hover,
+#side-navigation .pricing:hover {
+    background-color: #CCCF5B;
+}
+
+#side-navigation .about,
+#side-navigation .contact{
+    background-color: #FFC003;
+}
+#side-navigation .about:hover,
+#side-navigation .contact:hover {
+    background-color: #FAD975;
+}
+
+#side-navigation .works,
+#side-navigation .testimonials {
+    background-color: #F77B1B;
+}
+#side-navigation .works:hover,
+#side-navigation .testimonials:hover {
+    background-color: #F2AF7C;
+}
