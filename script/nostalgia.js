@@ -706,7 +706,7 @@ this.createMenuSlider=function()
         nextText:null,
         prevText:null,
         mode:'vertical',
-        displaySlideQty:5,
+        displaySlideQty:6,
         infiniteLoop:true,
         hideControlOnEnd:false,
         wrapperClass:'bx-wrapper bx-wrapper-nostalgia-navigation-menu'
