@@ -155,6 +155,8 @@ com.nostalgia.widgets.base = {
         if($('li a.home').attr('href') === window.location.hash) {
             $('#nostalgia-tab-content, #nostalgia-tab').addClass('no-background');
             $('#supersized-control-wrapper').show();
+        } else {
+            $('#nostalgia-tab-content, #nostalgia-tab').removeClass('no-background');
         }
     }
 };
