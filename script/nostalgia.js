@@ -449,6 +449,7 @@ this.setTabClass=function(tabToOpen)
     $this.resetTabClass();
 
     $this.nostalgiaTab.addClass('nostalgia-tab-'+tabToOpen);
+    com.nostalgia.widgets.base.checkIfHomePage();
     $this.nostalgiaTabIcon.addClass('nostalgia-tab-icon-'+className);
 };
 
