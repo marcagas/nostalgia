@@ -627,6 +627,10 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
 }
 
 /* bandanas - about */
+.page-about .subtitle-paragraph {
+    margin-bottom: 20px;
+}
+
 #bandanas {
     padding: 7px;
     border: 2px solid #444;
@@ -640,25 +644,104 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
 /* advertisers */
 #advertisers {
     margin-bottom: 20px;
+    margin-left: 0;
+}
+
+#advertisers > p {
+    margin-left: 0;
+    padding-left: 0 !important;
+    color: #fff;
 }
 
 #advertisers p.subtitle-paragraph {
     font-weight: bold;
     margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+#advertisers-list {
+    margin-left: 0 !important;
+    list-style: none;
+    overflow: hidden;
 }
 
 #advertisers-list li {
-    font-size: 1.6em;
+    font-size: 1em;
     line-height: 1.55em;
-    color: #302929;
-    font-family: 'Dosis';
+    color: #000;
+    padding: 2px 0 0 25px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    float: left;
 }
 
-#advertisers h2,
-#advertisers a{
+#advertisers-list li:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#advertisers-list li:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#advertisers-list li i {
+    background: #fff url('../image/icon/glyphicons-halflings.png') -332px -93px no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#advertisers-list li:hover i {
+    background: #000 url('../image/icon/glyphicons-halflings-white.png') -332px -93px no-repeat;
+}
+
+#advertisers h2 {
     font-size: 18px;
     font-family: 'Dosis';
     margin-top: 20px;
+}
+
+#advertisers section.testimonial {
+    padding-top: 20px;
+}
+
+#advertisers section.testimonial p.subtitle-paragraph {
+    color: #fff;
+    padding-left: 0;
+}
+
+#advertisers section.testimonial .emphasize {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 4px;
+    position: relative;
+    width: 153px;
+    display: inline-block;
+}
+
+#advertisers section.testimonial .emphasize:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#advertisers section.testimonial .emphasize:hover i{
+    background: url('../image/icon/glyphicons-halflings-white.png') -262px -96px no-repeat;
+}
+
+#advertisers section.testimonial i.look-at-this {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    background: url('../image/icon/glyphicons-halflings.png') -262px -96px no-repeat;
 }
 
 .image-list img {
@@ -740,7 +823,6 @@ ul.testimonial-list {
     text-decoration: underline;
 }
 
-
 /* pricing */
 
 .page-pricing .nostalgia-accordion p.lead {
@@ -779,29 +861,41 @@ p.package-deal, p.money-required, p.executive-take {
 /* links */
 #side-navigation .home,
 #side-navigation .pricing {
-    background-color: #CBCF1A;
+    background-color: #000;
+/*    background-color: #CBCF1A;*/
 }
+#side-navigation li a.home.active,
+#side-navigation li a.pricing.active,
 #side-navigation .home:hover,
 #side-navigation .pricing:hover {
-    background-color: #CCCF5B;
+/*    background-color: #CCCF5B;*/
+    background-color: #CBCF1A;
 }
 
 #side-navigation .about,
 #side-navigation .contact{
-    background-color: #FFC003;
+    background-color: #000;
+/*    background-color: #FFC003;*/
 }
+#side-navigation li a.about.active,
+#side-navigation li a.contact.active,
 #side-navigation .about:hover,
 #side-navigation .contact:hover {
-    background-color: #FAD975;
+/*    background-color: #FAD975;*/
+    background-color: #FFC003;
 }
 
+#side-navigation li a.works.active,
+#side-navigation li a.testimonials.active,
 #side-navigation .works,
 #side-navigation .testimonials {
-    background-color: #F77B1B;
+/*    background-color: #F77B1B;*/
+    background-color: #000;
 }
 #side-navigation .works:hover,
 #side-navigation .testimonials:hover {
-    background-color: #F2AF7C;
+/*    background-color: #F2AF7C;*/
+    background-color: #F77B1B;
 }
 
 .no-background {

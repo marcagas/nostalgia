@@ -4,8 +4,12 @@ $(document).ready(function()
     var options={};
 
     if ($.trim($('#nostalgia-tab-content-page').html()) === '') {
-        $('#nostalgia-navigation-name-box').click();
-        window.location.hash = $('li a.home').attr('href');
+
+        if (window.location.hash === '') {
+            $('#nostalgia-navigation-name-box').click();
+            window.location.hash = $('li a.home').attr('href');
+        }
+        $('li a[href="' + window.location.hash + '"]').addClass('active');
     }
 
     $('#prevslide, #nextslide').live('click', function(e){e.preventDefault()});
@@ -134,6 +138,11 @@ $(document).ready(function()
 //        }
     };
     $('#nostalgia').nostalgia(options,page,slide);
+
+    $('#side-navigation li a').live('click', function(e) {
+        $(this).parent().siblings().find('a').removeClass('active');
+        $(this).addClass('active');
+    });
 
 });
 
