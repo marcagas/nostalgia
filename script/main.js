@@ -9,7 +9,9 @@ $(document).ready(function()
             $('#nostalgia-navigation-name-box').click();
             window.location.hash = $('li a.home').attr('href');
         }
-        $('li a[href="' + window.location.hash + '"]').addClass('active');
+        var activeLink = $('li a[href="' + window.location.hash + '"]');
+        $('#nostalgia-tab').attr('data-selected', activeLink.attr('class'));
+        activeLink.addClass('active');
     }
 
     $('#prevslide, #nextslide').live('click', function(e){e.preventDefault()});
@@ -110,7 +112,7 @@ $(document).ready(function()
         },
         'pricing.html'          : {
             tab: 'left',
-            className: 'pricing'
+            className: 'checkmark'
         },
 //        'services.html'		: {
 //            tab:'right',
@@ -130,7 +132,7 @@ $(document).ready(function()
         },
         'testimonials.html'		: {
             tab:'left',
-            className:'testimonials'
+            className:'checkmark'
         }
 //        'post.html'			: {
 //            tab:'left',
@@ -142,6 +144,8 @@ $(document).ready(function()
     $('#side-navigation li a').live('click', function(e) {
         $(this).parent().siblings().find('a').removeClass('active');
         $(this).addClass('active');
+
+        $('#nostalgia-tab').attr('data-selected', $(this).attr('data-class'));
     });
 
 });

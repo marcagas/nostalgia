@@ -627,6 +627,46 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
 }
 
 /* bandanas - about */
+#nostalgia-tab[data-class="home"],
+#nostalgia-tab[data-class="pricing"],
+#nostalgia-tab-content[data-class="home"],
+#nostalgia-tab-content[data-class="pricing"] .jspTrack,
+#nostalgia-tab-content[data-class="pricing"],
+#nostalgia-tab-content[data-class="pricing"] ul.social-list {
+    background-color: #CBCF1A;
+}
+
+#nostalgia-tab-content[data-class="pricing"] .jspDrag {
+    background-color: #9EA11A;
+}
+
+#nostalgia-tab[data-class="about"],
+#nostalgia-tab[data-class="contact"],
+#nostalgia-tab-content[data-class="about"],
+#nostalgia-tab-content[data-class="about"] .jspTrack,
+#nostalgia-tab-content[data-class="contact"] .jspTrack,
+#nostalgia-tab-content[data-class="contact"],
+#nostalgia-tab-content[data-class="contact"] ul.social-list,
+#nostalgia-tab-content[data-class="about"] ul.social-list {
+    background-color: #FFC003;
+}
+
+#nostalgia-tab[data-class="works"],
+#nostalgia-tab[data-class="testimonials"],
+#nostalgia-tab-content[data-class="works"],
+#nostalgia-tab-content[data-class="works"] .jspTrack,
+#nostalgia-tab-content[data-class="testimonials"] .jspTrack,
+#nostalgia-tab-content[data-class="testimonials"],
+#nostalgia-tab-content[data-class="testimonials"] ul.social-list,
+#nostalgia-tab-content[data-class="works"] ul.social-list {
+    background-color: #F77B1B;
+}
+
+#nostalgia-tab-content[data-class="works"] .jspDrag,
+#nostalgia-tab-content[data-class="testimonials"] .jspDrag {
+    background-color: #B85A12;
+}
+
 .page-about .subtitle-paragraph {
     margin-bottom: 20px;
 }
@@ -885,13 +925,13 @@ p.package-deal, p.money-required, p.executive-take {
     background-color: #FFC003;
 }
 
-#side-navigation li a.works.active,
-#side-navigation li a.testimonials.active,
 #side-navigation .works,
 #side-navigation .testimonials {
 /*    background-color: #F77B1B;*/
     background-color: #000;
 }
+#side-navigation li a.works.active,
+#side-navigation li a.testimonials.active,
 #side-navigation .works:hover,
 #side-navigation .testimonials:hover {
 /*    background-color: #F2AF7C;*/
