@@ -5,8 +5,8 @@
     <!-- Header + subtitle -->
     <h1>Contact</h1>
     <p class="subtitle-paragraph">
-		If you just want to say hello or ask a question,
-        <span class="bold">please send me a short message.</span>
+        <span class="bold">Just say hello,</span>
+        or ask a question.
     </p>
     <!--/ Header + subtitle -->
 
@@ -28,20 +28,21 @@
 
         <div class="contact-details-map">
             <div class="contact-details-map-arrow"></div>
-            <iframe width="245" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.ph/?ie=UTF8&amp;ll=-38.205038,146.537683&amp;spn=0.006989,0.009817&amp;t=h&amp;z=17&amp;output=embed"></iframe>
+            <iframe width="245" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=janette+street+traralgon&amp;aq=&amp;sll=-38.204667,146.537029&amp;sspn=0.002331,0.004823&amp;doflg=ptk&amp;ie=UTF8&amp;hq=&amp;hnear=Janette+St,+Traralgon+Victoria+3844,+Australia&amp;t=m&amp;ll=-38.204229,146.537704&amp;spn=0.006745,0.010471&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br />
         </div>
 
     </div>
-    <p class="subtitle-paragraph">
-        Feel free to contact us from Monday - Friday , 8AM to 9PM weeknights. Meeting exciting people, starting new projects and concepts is what makes us tick. So go on, get in touch.. We work quite hard and luckily we LOVE it!
+    <p>
+        Feel free to contact us from <b>Monday - Friday , 8AM to 9PM weeknights</b>. Meeting exciting people, starting new projects and concepts is what makes us tick. So go on, get in touch.. We work quite hard and luckily we LOVE it!
     </p>
-    <p class="subtitle-paragraph">
+
+    <h3>DROP A LINE</h3>
+    <p>
         One quick favor to make our conversation more productive, let us know what product or service you need help with.
     </p>
     <!-- /Personal details + Google map -->
 
     <!-- Contact form -->
-    <h3>General Inquiry</h3>
     <form name="contact" id="contact" action="" method="post" class="clear-fix">
 
         <div class="clear-fix">
