@@ -865,15 +865,54 @@ ul.testimonial-list {
 
 /* pricing */
 
+.page-pricing p.pricing-explanation {
+    font-weight: normal;
+}
+
 .page-pricing .nostalgia-accordion p.lead {
     font-weight: bold;
+}
+
+.page-pricing span.recommend, .page-pricing span.includes, .page-pricing span.money-required {
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.page-pricing h3.money {
+    margin: 0;
+    color: #000;
+}
+
+.page-pricing p.normal {
+    font-weight: normal;
+}
+
+.page-pricing ul.package-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.page-pricing ul.package-list li {
+    position: relative;
+    padding: 0 0 0 15px;
+}
+
+.page-pricing ul.package-list li i{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 5px;
 }
 
 #non-profit {
     margin-top: 50px;
 }
 
-p.package-deal, p.money-required, p.executive-take {
+p.package-deal, p.executive-take {
     margin-top: 20px;
 }
 
@@ -882,20 +921,53 @@ p.package-deal, p.money-required, p.executive-take {
 }
 
 #pricing-questions ul {
-    border: 1px solid #444;
     padding: 5px;
+    list-style: none;
+}
+
+#pricing-questions li {
+    border-bottom: 1px solid #fff !important;
+    overflow: hidden;
 }
 
 #pricing-questions li.question-header {
-    font-weight: bold;
+    font-weight: normal;
     font-size: 16px;
-    border-bottom: 1px solid #444 !important;
 }
 
 #pricing-questions #question-to-ask,
 #pricing-questions .question{
-    width: 340px;
+    width: 400px;
     display: inline-block;
+    float: left;
+}
+
+#pricing-questions .answer.first{
+    min-height: 41px;
+    line-height: 37px;
+}
+
+
+#pricing-questions .answer {
+    background-color: #91D91E;
+    padding: 2px 0 0 30px;
+    overflow: hidden;
+    width: auto;
+    position: relative;
+    color: #fff;
+}
+
+#pricing-questions .answer i{
+    background: url('../image/icon/glyphicons-halflings-white.png') -286px 1px no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+
+#pricing-questions .answer.first i{
+    top: 12px;
 }
 
 /* links */
