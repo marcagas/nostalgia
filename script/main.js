@@ -163,6 +163,26 @@ $(document).ready(function()
         'strike_post.html' : {
             tab:'right',
             className: 'features'
+        },
+        'dictator.html' : {
+            tab:'right',
+            className: 'features'
+        },
+        'rooftop_cinema.html' : {
+            tab:'right',
+            className: 'features'
+        },
+        'rod_stewart.html' : {
+            tab:'right',
+            className: 'features'
+        },
+        'mtv.html' : {
+            tab:'right',
+            className: 'features'
+        },
+        'rockstar.html' : {
+            tab:'right',
+            className: 'features'
         }
 //        'post.html'			: {
 //            tab:'left',

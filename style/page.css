@@ -820,6 +820,10 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
     margin-bottom: 10px;
 }
 
+.great-works div.image-list-caption {
+    min-height: 40px;
+}
+
 .great-works .work-title{
     width: 150px;
     text-overflow: ellipsis;
@@ -1063,7 +1067,7 @@ p.package-deal, p.executive-take {
 div.more-eyeballs h3{
     background-color: #000;
     display: inline;
-    font-size: 4em;
+    font-size: 3em;
     padding: 0 5px 0;
     color: #F7BD00;
 }
@@ -1074,7 +1078,7 @@ div.more-eyeballs {
 }
 
 div.more-eyeballs div {
-    margin-top: 16px;
+    margin-top: 10px;
 }
 
 #home-intro {
