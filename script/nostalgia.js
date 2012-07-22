@@ -256,10 +256,10 @@
             var tab = $('#nostalgia-tab-content-page');
 
             if (tab.find('.page-contact').length) {
-                wittyText = "Thanks for the CPR, you're a real lifesaver!";
+                wittyText = "It's Been Lovely But I Have To Scream Now.";
                 console.log('contact');
             } else if (tab.find('.page-home').length) {
-                wittyText = 'I like to skim stones and take long walks in the park';
+                wittyText = 'I like to skim stones and take long walks in the park.';
                 console.log('home');
             } else if (tab.find('.page-about').length) {
                 wittyText = 'No one even asked me if I wanted pizza today. Well I do.';
@@ -268,10 +268,13 @@
                 wittyText = "Thanks for the CPR, you're a real lifesaver!";
                 console.log('works');
             } else if (tab.find('.page-pricing').length) {
-                wittyText = 'I like to skim stones and take long walks in the park';
+                wittyText = 'Change is inevitable, except from a vending machine.';
                 console.log('pricing');
             } else if (tab.find('.page-testimonials').length) {
-                wittyText = 'No one even asked me if I wanted pizza today. Well I do.';
+                wittyText = 'Men who sit on tacks get the point!';
+                console.log('testimonials');
+            } else if (tab.find('.page-post').length) {
+                wittyText = "He who laughs last probably didn't get the joke.";
                 console.log('testimonials');
             }
 
