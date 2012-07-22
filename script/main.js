@@ -83,6 +83,10 @@ $(document).ready(function()
         'testimonials.html'		: {
             tab:'left',
             className:'checkmark'
+        },
+        'strike_post.html' : {
+            tab:'right',
+            className: 'features'
         }
 //        'post.html'			: {
 //            tab:'left',

@@ -17,7 +17,8 @@
         <div class="contact-details-about">
             <p>
                 Visual Posters<br />
-                1300 662 502
+                1300 662 502<br />
+                20A Janette Street, Traralgon, 3844
             </p>
             <ul class="no-list">
                 <li class="icon-2 icon-2-1">T: 1300 662 502</li>

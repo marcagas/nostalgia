@@ -160,6 +160,7 @@ ul.image-list div.image-list-caption div.image-list-caption-subtitle
 /**********************************************************************/
 
 a.fancybox-image,
+a.work-img,
 a.fancybox-video
 {
     width:230px;
@@ -172,6 +173,7 @@ a.fancybox-video
 }
 
 a.fancybox-image img,
+a.work-img img,
 a.fancybox-video img
 {
     display:none;
@@ -179,6 +181,7 @@ a.fancybox-video img
 }
 
 a.fancybox-image span,
+a.work-img span,
 a.fancybox-video span
 {
     opacity:0;
@@ -195,8 +198,10 @@ a.fancybox-video span
 
 a.fancybox-image span,
 a.fancybox-video span,
+a.work-img span,
 a.fancybox-image:hover span,
-a.fancybox-video:hover span
+a.fancybox-video:hover span,
+a.work-img:hover span
 {
     transition:all 0.3s ease-in-out;
     -o-transition:all 0.3s ease-in-out;
@@ -206,6 +211,7 @@ a.fancybox-video:hover span
 }
 
 a.fancybox-image:hover span,
+a.work-img:hover span,
 a.fancybox-video:hover span
 {
     opacity:0.8;
@@ -214,6 +220,7 @@ a.fancybox-video:hover span
 }
 
 a.fancybox-image span  { background-image:url('../image/thumb_image_overlay.png'); }
+a.work-img span  { background-image:url('../image/thumb_image_overlay.png'); }
 a.fancybox-video span  { background-image:url('../image/thumb_video_overlay.png'); }
 
 /**************************************************************************/
@@ -576,7 +583,7 @@ div.page-contact div.contact-details-about
 {
     float:left;
     width:205px;
-    height:160px;
+    height:200px;
     padding:20px;
     line-height:170%;
     background:#000000;
@@ -1073,4 +1080,14 @@ div.more-eyeballs div {
 
 .bold {
     font-weight: bold;
+}
+
+/* strike-post */
+.page-post div.post-image {
+    overflow: hidden;
+}
+
+.page-post div.post-image img {
+    width: 490px;
+    height: 300px;
 }

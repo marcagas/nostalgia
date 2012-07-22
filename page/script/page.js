@@ -86,7 +86,7 @@ $('.fancybox-video-vimeo').bind('click',function()
 
 /******************************************************************************/
 
-$('a.fancybox-image img,a.fancybox-video img').each(function()
+$('a.work-img img, a.fancybox-image img,a.fancybox-video img').each(function()
 {
     $(this).attr('src',$(this).attr('src') + '?i='+getRandom(1,100000));
     $(this).bind('load',function() {

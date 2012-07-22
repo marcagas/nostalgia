@@ -252,6 +252,30 @@
         /*******************************************************************/
         this.changeBackground=function() {
             $('#nostalgia-tab, #nostalgia-tab-content').attr('data-class', $('#nostalgia-tab').attr('data-selected'));
+            var wittyText = '';
+            var tab = $('#nostalgia-tab-content-page');
+
+            if (tab.find('.page-contact').length) {
+                wittyText = "Thanks for the CPR, you're a real lifesaver!";
+                console.log('contact');
+            } else if (tab.find('.page-home').length) {
+                wittyText = 'I like to skim stones and take long walks in the park';
+                console.log('home');
+            } else if (tab.find('.page-about').length) {
+                wittyText = 'No one even asked me if I wanted pizza today. Well I do.';
+                console.log('about');
+            } else if (tab.find('.page-works').length) {
+                wittyText = "Thanks for the CPR, you're a real lifesaver!";
+                console.log('works');
+            } else if (tab.find('.page-pricing').length) {
+                wittyText = 'I like to skim stones and take long walks in the park';
+                console.log('pricing');
+            } else if (tab.find('.page-testimonials').length) {
+                wittyText = 'No one even asked me if I wanted pizza today. Well I do.';
+                console.log('testimonials');
+            }
+
+            $('#witty-text').text(wittyText);
         },
 
         /******************************************************************/
