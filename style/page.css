@@ -172,6 +172,11 @@ a.fancybox-video
     background-image:url('../image/preloader.gif');
 }
 
+.page-works a.fancybox-image, a.work-img,
+.page-testimonials a.fancybox-image, a.work-img {
+    background-image: url('../image/ajax-loader-orange.gif');
+}
+
 a.fancybox-image img,
 a.work-img img,
 a.fancybox-video img
