@@ -43,6 +43,82 @@ $(document).ready(function()
         {
             image: 'image/web_backgrounds/train.jpg',
             title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image1.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image2.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image3.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image4.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image5.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image6.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image7.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image8.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image9.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image10.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image11.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image12.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image13.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image14.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image15.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image16.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image17.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image18.jpg',
+            title: ''
+        },
+        {
+            image: 'image/web_backgrounds/image19.jpg',
+            title: ''
         }
     ];
 
