@@ -236,6 +236,7 @@ div.page-about #advertisers > i{
     margin-left: 60px;
 }
 
+div.page-about #advertisers-list,
 div.page-about #advertisers-list {
     margin-left: 90px;
 }
@@ -687,7 +688,7 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
     margin-left: 0;
 }
 
-#advertisers > p {
+#advertisers p.subtitle-paragraph {
     margin-left: 0;
     padding-left: 0 !important;
     color: #fff;
@@ -700,13 +701,19 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
     padding-left: 20px;
 }
 
-#advertisers-list {
+#advertisers-wrapper {
+    margin-bottom: 20px;
+}
+
+#advertisers-list,
+#cover-countries-list {
     margin-left: 0 !important;
     list-style: none;
     overflow: hidden;
 }
 
-#advertisers-list li {
+#advertisers-list li,
+#cover-countries-list li {
     font-size: 1em;
     line-height: 1.55em;
     color: #000;
@@ -718,17 +725,20 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
     float: left;
 }
 
-#advertisers-list li:hover {
+#advertisers-list li:hover,
+#cover-countries-list li:hover {
     background-color: #000;
     color: #fff;
 }
 
-#advertisers-list li:hover a {
+#advertisers-list li:hover a,
+#cover-countries-list li:hover a {
     color: #fff;
     text-decoration: none;
 }
 
-#advertisers-list li i {
+#advertisers-list li i,
+#cover-countries-list li i {
     background: #fff url('../image/icon/glyphicons-halflings.png') -332px -93px no-repeat;
     width: 20px;
     height: 20px;
@@ -738,7 +748,8 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
 
 }
 
-#advertisers-list li:hover i {
+#advertisers-list li:hover i,
+#cover-countries-list li:hover i {
     background: #000 url('../image/icon/glyphicons-halflings-white.png') -332px -93px no-repeat;
 }
 
