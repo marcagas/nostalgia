@@ -909,7 +909,7 @@ ul.testimonial-list {
     font-weight: bold;
 }
 
-.page-pricing span.recommend, .page-pricing span.includes, .page-pricing span.money-required {
+.page-pricing span.recommend, .page-pricing span.includes, .page-pricing span.money-required, .page-pricing span.executive-take {
     font-weight: bold;
     color: #fff;
     display: inline-block;
@@ -952,39 +952,43 @@ p.package-deal, p.executive-take {
     margin-top: 20px;
 }
 
-#pricing-questions {
+.pricing-questions {
     margin: 30px 0 20px 0;
 }
 
-#pricing-questions ul {
+.pricing-questions ul {
     padding: 5px;
     list-style: none;
 }
 
-#pricing-questions li {
+.pricing-questions li {
     border-bottom: 1px solid #fff !important;
     overflow: hidden;
 }
 
-#pricing-questions li.question-header {
+.pricing-questions li.question-header {
     font-weight: normal;
     font-size: 16px;
 }
 
-#pricing-questions #question-to-ask,
-#pricing-questions .question{
+.pricing-questions #question-to-ask,
+.pricing-questions .question{
     width: 400px;
     display: inline-block;
     float: left;
 }
 
-#pricing-questions .answer.first{
+.pricing-questions .question {
+    font-weight: bold;
+}
+
+.pricing-questions .answer.first{
     min-height: 41px;
     line-height: 37px;
 }
 
 
-#pricing-questions .answer {
+.pricing-questions .answer {
     background-color: #91D91E;
     padding: 2px 0 0 30px;
     overflow: hidden;
@@ -993,7 +997,7 @@ p.package-deal, p.executive-take {
     color: #fff;
 }
 
-#pricing-questions .answer i{
+.pricing-questions .answer i{
     background: url('../image/icon/glyphicons-halflings-white.png') -286px 1px no-repeat;
     width: 20px;
     height: 20px;
@@ -1002,7 +1006,7 @@ p.package-deal, p.executive-take {
     left: 5px;
 }
 
-#pricing-questions .answer.first i{
+.pricing-questions .answer.first i{
     top: 12px;
 }
 

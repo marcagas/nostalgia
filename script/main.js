@@ -14,7 +14,7 @@ $(document).ready(function()
         activeLink.addClass('active');
     }
 
-    $('#prevslide, #nextslide').live('click', function(e){e.preventDefault()});
+    $('#prevslide, #nextslide, .ui-accordion-header a').live('click', function(e){e.preventDefault()});
 //    {
 //        image:'image/background/01.jpg',
 //        title:'<span class="supersized-caption-title">Halle Kearney By Robby Mueller</span><br/><br/>Well, today was Halle Kearney\'s first senior picture session in Akron, OH and I decided to go with something a little different here.<br/><br/>This is not going to be used as one of her senior pictures (As far as I know).<br/><br/>We took a different spin on things and I\'m a tad bit stoked on it.<br/><br/><a href="http://www.flickr.com/photos/ro2b3yface/5623260278/in/photostream/">Author Website</a>'
@@ -69,7 +69,7 @@ $(document).ready(function()
 //            className:'features'
 //        },
 //        'portfolio.html'	: {
-//            tab:'left',
+//            tab:'left',f
 //            className:'image'
 //        },
 //        'blog.html'			: {

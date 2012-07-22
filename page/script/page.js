@@ -28,7 +28,8 @@ $('.nostalgia-accordion').accordion({
     icons:'',
     animated:'easeOutExpo',
     autoHeight:false,
-    collapsible:true
+    collapsible:true,
+    active: false
 });
 
 /******************************************************************************/
