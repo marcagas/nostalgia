@@ -8,6 +8,7 @@
         <span class="bold">Just say hello,</span>
         or ask a question.
     </p>
+    <p class="subtitle-paragraph">So go on, get in touch.. We work quite hard and luckily we LOVE it!</p>
     <!--/ Header + subtitle -->
 
     <!-- Personal details + Google map -->
