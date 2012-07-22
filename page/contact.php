@@ -3,7 +3,7 @@
 <div class="page-contact clear-fix">
 
     <!-- Header + subtitle -->
-    <h1>Contact</h1>
+    <h1>Contact US</h1>
     <p class="subtitle-paragraph">
         <span class="bold">Just say hello,</span>
         or ask a question.
@@ -11,7 +11,7 @@
     <!--/ Header + subtitle -->
 
     <!-- Personal details + Google map -->
-    <h3>This is what our door looks like.</h3>
+<!--    <h3>Office Details</h3>-->
     <div class="clear-fix contact-details">
 
         <div class="contact-details-about">
@@ -26,10 +26,10 @@
 
         </div>
 
-        <div class="contact-details-map">
+<!--        <div class="contact-details-map">
             <div class="contact-details-map-arrow"></div>
             <iframe width="245" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=janette+street+traralgon&amp;aq=&amp;sll=-38.204667,146.537029&amp;sspn=0.002331,0.004823&amp;doflg=ptk&amp;ie=UTF8&amp;hq=&amp;hnear=Janette+St,+Traralgon+Victoria+3844,+Australia&amp;t=m&amp;ll=-38.204229,146.537704&amp;spn=0.006745,0.010471&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br />
-        </div>
+        </div>-->
 
     </div>
     <p>
