@@ -172,6 +172,7 @@ a.fancybox-video
     background-image:url('../image/preloader.gif');
 }
 
+.page-post a.fancybox-image, a.work-img,
 .page-works a.fancybox-image, a.work-img,
 .page-testimonials a.fancybox-image, a.work-img {
     background-image: url('../image/ajax-loader-orange.gif');
@@ -249,8 +250,9 @@ div.page-about #advertisers > i{
 }
 
 div.page-about #advertisers-list,
-div.page-about #advertisers-list {
+div.page-about #cover-countries-list {
     margin-left: 90px;
+    padding-left: 20px;
 }
 
 div.page-about ul.list-1
@@ -831,6 +833,15 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
     white-space: nowrap;
 }
 
+.great-works a.work-img {
+    
+}
+
+.great-works img {
+    height: auto;
+    max-height: 150px;
+}
+
 /* testimonials page */
 .page-testimonials .testimonial-list-post-image {
     overflow: hidden;
@@ -1097,6 +1108,10 @@ div.more-eyeballs div {
 
 /* strike-post */
 .page-post div.post-image {
+    overflow: hidden;
+}
+
+.page-post div.post-image > a {
     overflow: hidden;
 }
 
