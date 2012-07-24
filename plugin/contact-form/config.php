@@ -2,17 +2,17 @@
 
     define('_template_path','template/default.php');
 
-    define('_from_name','QuanticaLabs@gmail.com');
-    define('_from_email','quanticalabs@gmail.com');
+    define('_from_name','info@visualposters.com.au');
+    define('_from_email','info@visualposters.com.au');
 
-    define('_to_name','QuanticaLabs@gmail.com');
-    define('_to_email','quanticalabs@gmail.com');
+    define('_to_name','info@visualposters.com.au');
+    define('_to_email','info@visualposters.com.au');
 
     define('_smtp_host','');
     define('_smtp_username','');
     define('_smtp_password','');
 
-    define('_subject_email','Nostalgia: Contact from WWW');
+    define('_subject_email','Nostalgia: Contact from www.visualposters.com.au');
 
     define('_msg_invalid_data_name','Please enter your name.');
     define('_msg_invalid_data_email','Please enter valid e-mail.');
@@ -24,5 +24,5 @@
 
     define('_msg_send_ok','Thank you for contact us.');
     define('_msg_send_error','Sorry, we can\'t send this message.');
-    
+
 ?>

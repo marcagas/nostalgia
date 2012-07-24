@@ -993,7 +993,7 @@ p.package-deal, p.executive-take {
 
 .pricing-questions #question-to-ask,
 .pricing-questions .question{
-    width: 400px;
+    width: 370px;
     display: inline-block;
     float: left;
 }
@@ -1091,8 +1091,12 @@ p.package-deal, p.executive-take {
 }
 
 /* home page */
-div.more-eyeballs h3{
+div.more-eyeballs {
     background-color: #000;
+    text-align: center;
+}
+
+div.more-eyeballs h3 {
     display: inline;
     font-size: 3em;
     padding: 0 5px 0;
