@@ -1127,6 +1127,28 @@ div.more-eyeballs div {
 }
 
 /* strike-post */
+.page-post > .post {
+    min-height: 500px;
+}
+
+.page-post span.back-button {
+    position: relative;
+    display: inline-block;
+}
+
+.page-post span.back-button a {
+    margin-left: 20px;
+}
+
+.page-post span.back-button i {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    background: url('../image/icon/glyphicons-halflings.png') -239px -96px no-repeat;
+}
+
 .page-post div.post-image {
     overflow: hidden;
 }
