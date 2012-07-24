@@ -834,7 +834,7 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
 }
 
 .great-works a.work-img {
-    
+
 }
 
 .great-works img {
@@ -1028,6 +1028,22 @@ p.package-deal, p.executive-take {
 
 .pricing-questions .answer.first i{
     top: 12px;
+}
+
+.page-pricing #best-package-recommended-brands span.package-logos,
+.page-pricing #small-package-recommended-brands span.package-logos {
+    padding: 7px;
+}
+
+#broadcast-package-recommended-brands span.package-logos {
+    padding: 4px;
+}
+
+.page-pricing #best-package-recommended-brands,
+.page-pricing #broadcast-package-recommended-brands,
+.page-pricing #small-package-recommended-brands {
+    margin: 15px 0;
+    overflow: hidden;
 }
 
 /* links */

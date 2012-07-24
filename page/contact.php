@@ -23,7 +23,7 @@
             </p>
             <ul class="no-list">
                 <li class="icon-2 icon-2-1">T: 1300 662 502</li>
-                <li class="icon-2 icon-2-3">E: info@visualposters.com.au</li>
+                <li class="icon-2 icon-2-3">E: <a href="mailto:info@visualposters.com.au?Subject=Hello" style="color: #fff;">info@visualposters.com.au</a></li>
             </ul>
 
         </div>
@@ -40,7 +40,7 @@
 
     <h3>DROP A LINE</h3>
     <p>
-        One quick favor to make our conversation more productive, let us know what product or service you need help with.
+        One quick favor to make our conversation more productive, let us know what event you're working on and a phone number so we can give you great advice.
     </p>
     <!-- /Personal details + Google map -->
 
