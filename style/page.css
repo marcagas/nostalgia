@@ -719,6 +719,11 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
     margin-bottom: 20px;
 }
 
+#advertisers-wrapper span.smart-people {
+    font-size: 20px;
+    padding-left: 11px;
+}
+
 #advertisers-list,
 #cover-countries-list {
     margin-left: 0 !important;
@@ -1191,8 +1196,8 @@ div.more-eyeballs div {
     border-bottom-right-radius: 0;*/
 }
 
-#side-contact-wrapper.left {
-/*    -webkit-border-top-right-radius: 12px;
+#side-contact-wrapper {
+    -webkit-border-top-right-radius: 12px;
     -webkit-border-bottom-right-radius: 12px;
     -webkit-border-top-left-radius: 0;
     -webkit-border-bottom-left-radius: 0;
@@ -1205,7 +1210,7 @@ div.more-eyeballs div {
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     border-top-left-radius: 0;
-    border-bottom-left-radius: 0;*/
+    border-bottom-left-radius: 0;
 
     left: 0;
 }
@@ -1217,7 +1222,7 @@ div.more-eyeballs div {
     margin: 8px;
 }
 
-#side-contact-details.right {
+/*#side-contact-details.right {*/
 /*    margin: 8px 0 8px 8px;*/
 /*    border-right: none;
 
@@ -1235,10 +1240,10 @@ div.more-eyeballs div {
     border-bottom-left-radius: 12px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;*/
-}
+/*}*/
 
-#side-contact-details.left {
-/*    -webkit-border-top-right-radius: 12px;
+#side-contact-details {
+    -webkit-border-top-right-radius: 12px;
     -webkit-border-bottom-right-radius: 12px;
     -webkit-border-top-left-radius: 0;
     -webkit-border-bottom-left-radius: 0;
@@ -1251,13 +1256,19 @@ div.more-eyeballs div {
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     border-top-left-radius: 0;
-    border-bottom-left-radius: 0;*/
+    border-bottom-left-radius: 0;
 
-/*    margin: 8px 8px 8px 0 !important;*/
-/*    border-left: none;*/
+    margin: 8px 8px 8px 0 !important;
+    border: 1px solid #000;
+    border-left: none;
 }
 
-#side-contact-details h3.header-plain {
+#side-contact-details span.header-plain {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+/*#side-contact-details h3.header-plain {
     font-weight: bold;
     margin: 10px 0 0 0;
     line-height: 16px;
@@ -1273,7 +1284,7 @@ div.more-eyeballs div {
     font-size: 14px;
     font-weight: bold;
     color: #000;
-}
+}*/
 
 #side-contact-wrapper p {
     padding: 5px 0;
