@@ -174,13 +174,18 @@
         /******************************************************************/
 
         this.open=function(forceOpen,event) {
+            $('#nostalgia-tab, #nostalgia-tab-content').attr('data-class', $('#nostalgia-tab').attr('data-selected'));
+
             var tabOpen=$this.isOpen();
             var tabToOpen=this.getPageProperty($this.currentHash,'tab');
+
+            $('#side-contact-wrapper, #side-contact-details').fadeOut();
 
             if((tabOpen===false) && (!forceOpen)) {
                 $this.moveNavigation(tabToOpen,{
                     complete:function() {
                         $this.open(true,event);
+                        $this.showSideContact(tabToOpen);
                     }
                 });
             }
@@ -192,6 +197,7 @@
                                 $this.openTab(tabToOpen,{
                                     complete:function() {
                                         $this.doEvent(event);
+                                        $this.showSideContact(tabToOpen);
                                     }
                                 });
                             }
@@ -204,6 +210,7 @@
                                         $this.openTab(tabToOpen,{
                                             complete:function() {
                                                 $this.doEvent(event);
+                                                $this.showSideContact(tabToOpen);
                                             }
                                         });
                                     }
@@ -213,6 +220,7 @@
                     } else $this.openTab(tabToOpen, {
                         complete:function() {
                             $this.doEvent(event);
+                            $this.showSideContact(tabToOpen);
                         }
                     });
                 } else if(tabToOpen=='right') {
@@ -222,6 +230,7 @@
                                 $this.openTab(tabToOpen,{
                                     complete:function() {
                                         $this.doEvent(event);
+                                        $this.showSideContact(tabToOpen);
                                     }
                                 });
                             }
@@ -234,6 +243,7 @@
                                         $this.openTab(tabToOpen,{
                                             complete:function() {
                                                 $this.doEvent(event);
+                                                $this.showSideContact(tabToOpen);
                                             }
                                         });
                                     }
@@ -243,6 +253,7 @@
                     } else $this.openTab(tabToOpen, {
                         complete:function() {
                             $this.doEvent(event);
+                            $this.showSideContact(tabToOpen);
                         }
                     });
                 }
@@ -251,7 +262,6 @@
 
         /*******************************************************************/
         this.changeBackground=function() {
-            $('#nostalgia-tab, #nostalgia-tab-content').attr('data-class', $('#nostalgia-tab').attr('data-selected'));
             var wittyText = '';
             var tab = $('#nostalgia-tab-content-page');
 
@@ -276,6 +286,13 @@
 
         /******************************************************************/
 
+        /******************************************************************/
+        this.showSideContact = function(tabToOpen) {
+            $('#side-contact-wrapper, #side-contact-details').attr('class', tabToOpen == 'left' ? 'right' : 'left').fadeIn();
+        },
+        /******************************************************************/
+
+        /******************************************************************/
         this.close=function(event) {
             var tab=this.isOpen();
 
