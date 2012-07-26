@@ -5,10 +5,10 @@
     <!-- Header + subtitle -->
     <h1>Contact US</h1>
     <p class="subtitle-paragraph">
-        <span class="bold">Just say hello,</span>
-        or ask a question.
+        <span class="bold">Responsible Adults with phones and voicemail </span>
     </p>
-    <p class="subtitle-paragraph">So go on, get in touch.. We work quite hard and luckily we LOVE it!</p>
+<!--    <p class="subtitle-paragraph">So go on, get in touch.. We work quite hard and luckily we LOVE it!</p>-->
+    <p class="subtitle-paragraph">Contacts are a safe and socially acceptable alternative to glasses. Speaking of which, here are some people you might want to talk to.</p>
     <!--/ Header + subtitle -->
 
     <!-- Personal details + Google map -->
@@ -21,10 +21,21 @@
                 1300 662 502<br />
                 20A Janette Street, Traralgon, 3844
             </p>
+
+            <p class="sales-general-inq">
+                Sales & General Inquiries
+            </p>
             <ul class="no-list">
-                <li class="icon-2 icon-2-1">T: 1300 662 502</li>
-                <li class="icon-2 icon-2-3">E: <a href="mailto:info@visualposters.com.au?Subject=Hello" style="color: #fff;">info@visualposters.com.au</a></li>
+                <li class="contact-person"><b>Mike T</b></li>
+                <li class="icon-2 icon-2-1 contact-number">0351759101</li>
+                <li class="contact-person"><b>Christopher C</b></li>
+                <li class="icon-2 icon-2-1 contact-number">0351759105  </li>
+                <li class="icon-2 icon-2-3 contact-number"><a href="mailto:info@visualposters.com.au?Subject=Hello" style="color: #fff;">info@visualposters.com.au</a></li>
             </ul>
+<!--            <ul class="no-list">
+                <li class="icon-2 icon-2-1">1300 662 502</li>
+                <li class="icon-2 icon-2-3">E: <a href="mailto:info@visualposters.com.au?Subject=Hello" style="color: #fff;">info@visualposters.com.au</a></li>
+            </ul>-->
 
         </div>
 

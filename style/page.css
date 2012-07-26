@@ -722,6 +722,7 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
 #advertisers-wrapper span.smart-people {
     font-size: 20px;
     padding-left: 11px;
+    color: #000;
 }
 
 #advertisers-list,
@@ -1184,35 +1185,35 @@ div.more-eyeballs div {
 
 #side-contact-wrapper.right {
     right: 0;
-    -webkit-border-top-left-radius: 12px;
-    -webkit-border-bottom-left-radius: 12px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
     -webkit-border-top-right-radius: 0;
     -webkit-border-bottom-right-radius: 0;
 
-    -moz-border-radius-topleft: 12px;
-    -moz-border-radius-bottomleft: 12px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-bottomleft: 6px;
     -moz-border-radius-topright: 0;
     -moz-border-radius-bottomright: 0;
 
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 
 #side-contact-wrapper.left {
-    -webkit-border-top-right-radius: 12px;
-    -webkit-border-bottom-right-radius: 12px;
+    -webkit-border-top-right-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
     -webkit-border-top-left-radius: 0;
     -webkit-border-bottom-left-radius: 0;
 
-    -moz-border-radius-topright: 12px;
-    -moz-border-radius-bottomright: 12px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomright: 6px;
     -moz-border-radius-topleft: 0;
     -moz-border-radius-bottomleft: 0;
 
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 
@@ -1230,35 +1231,35 @@ div.more-eyeballs div {
     margin: 8px 0 8px 8px;
     border-right: none;
 
-    -webkit-border-top-left-radius: 12px;
-    -webkit-border-bottom-left-radius: 12px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
     -webkit-border-top-right-radius: 0;
     -webkit-border-bottom-right-radius: 0;
 
-    -moz-border-radius-topleft: 12px;
-    -moz-border-radius-bottomleft: 12px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-bottomleft: 6px;
     -moz-border-radius-topright: 0;
     -moz-border-radius-bottomright: 0;
 
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 
 #side-contact-details.left {
-    -webkit-border-top-right-radius: 12px;
-    -webkit-border-bottom-right-radius: 12px;
+    -webkit-border-top-right-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
     -webkit-border-top-left-radius: 0;
     -webkit-border-bottom-left-radius: 0;
 
-    -moz-border-radius-topright: 12px;
-    -moz-border-radius-bottomright: 12px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomright: 6px;
     -moz-border-radius-topleft: 0;
     -moz-border-radius-bottomleft: 0;
 
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 
@@ -1307,4 +1308,26 @@ div.more-eyeballs div {
 
 .hide {
     display: none;
+}
+
+/* contact us page */
+.page-contact div.contact-details-about {
+    height: 260px !important;
+}
+
+.page-contact div.contact-details-about ul {
+    margin-top: 0 !important;
+}
+
+.page-contact div.contact-details-about p.sales-general-inq {
+    padding-bottom: 0 !important;
+}
+
+.page-contact div.contact-details-about ul li.contact-person {
+    padding: 0 !important;
+}
+
+.page-contact div.contact-details-about li.contact-number {
+    margin-left: 10px !important;
+    font-size: 12px;
 }
