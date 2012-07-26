@@ -1177,14 +1177,14 @@ div.more-eyeballs div {
     background: #fff;
     top: 200px;
     position: fixed;
-    width: 300px;
+    width: 180px;
     font-size: 12px;
     z-index: 9;
 }
 
 #side-contact-wrapper.right {
     right: 0;
-/*    -webkit-border-top-left-radius: 12px;
+    -webkit-border-top-left-radius: 12px;
     -webkit-border-bottom-left-radius: 12px;
     -webkit-border-top-right-radius: 0;
     -webkit-border-bottom-right-radius: 0;
@@ -1197,10 +1197,10 @@ div.more-eyeballs div {
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     border-top-right-radius: 0;
-    border-bottom-right-radius: 0;*/
+    border-bottom-right-radius: 0;
 }
 
-#side-contact-wrapper {
+#side-contact-wrapper.left {
     -webkit-border-top-right-radius: 12px;
     -webkit-border-bottom-right-radius: 12px;
     -webkit-border-top-left-radius: 0;
@@ -1221,14 +1221,14 @@ div.more-eyeballs div {
 
 #side-contact-details {
     padding: 5px;
-/*    border: 1px solid black;*/
+    border: 1px solid black;
     font-size: 12px;
     margin: 8px;
 }
 
-/*#side-contact-details.right {*/
-/*    margin: 8px 0 8px 8px;*/
-/*    border-right: none;
+#side-contact-details.right {
+    margin: 8px 0 8px 8px;
+    border-right: none;
 
     -webkit-border-top-left-radius: 12px;
     -webkit-border-bottom-left-radius: 12px;
@@ -1243,10 +1243,10 @@ div.more-eyeballs div {
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     border-top-right-radius: 0;
-    border-bottom-right-radius: 0;*/
-/*}*/
+    border-bottom-right-radius: 0;
+}
 
-#side-contact-details {
+#side-contact-details.left {
     -webkit-border-top-right-radius: 12px;
     -webkit-border-bottom-right-radius: 12px;
     -webkit-border-top-left-radius: 0;
@@ -1263,13 +1263,14 @@ div.more-eyeballs div {
     border-bottom-left-radius: 0;
 
     margin: 8px 8px 8px 0 !important;
-    border: 1px solid #000;
+/*    border: 1px solid #000;*/
     border-left: none;
 }
 
 #side-contact-details span.header-plain {
     margin-top: 5px;
     display: inline-block;
+    font-weight: bold;
 }
 
 /*#side-contact-details h3.header-plain {
@@ -1291,7 +1292,7 @@ div.more-eyeballs div {
 }*/
 
 #side-contact-wrapper p {
-    padding: 5px 0;
+    padding: 0;
     line-height: 14px;
 }
 

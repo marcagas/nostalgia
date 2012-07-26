@@ -288,11 +288,11 @@
 
         /******************************************************************/
         this.showSideContact = function(tabToOpen) {
-            if (window.location.hash.indexOf('contact.php') > 0) {
-                $('#side-contact-wrapper, #side-contact-details').attr('class', /*tabToOpen == 'left' ? 'right' :*/ 'left').fadeIn();
-            } else {
-                $('#side-contact-wrapper, #side-contact-details').hide();
-            }
+//            if (window.location.hash.indexOf('contact.php') > 0) {
+              $('#side-contact-wrapper, #side-contact-details').attr('class', tabToOpen == 'left' ? 'right' : 'left').fadeIn();
+//            } else {
+//                $('#side-contact-wrapper, #side-contact-details').hide();
+//            }
 
         },
         /******************************************************************/
