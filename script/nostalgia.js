@@ -282,6 +282,18 @@
             }
 
             $('#witty-text').text(wittyText);
+
+            $this.changeSlide();
+        },
+
+        this.changeSlide = function() {
+            if ($this.slideInterval !== undefined) {
+                clearInterval(this.slideInterval);
+            }
+
+            $this.slideInterval = setInterval(function() {
+                api.nextSlide();
+            }, 35000);
         },
 
         /******************************************************************/
