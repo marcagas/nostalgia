@@ -1311,23 +1311,86 @@ div.more-eyeballs div {
 }
 
 /* contact us page */
-.page-contact div.contact-details-about {
-    height: 260px !important;
+.page-contact #contact-details {
+    height: 155px !important;
+    margin-bottom: 15px;
 }
 
-.page-contact div.contact-details-about ul {
+.page-contact #contact-details ul {
     margin-top: 0 !important;
 }
 
-.page-contact div.contact-details-about p.sales-general-inq {
+#contact-details i#location {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: inline-block;
+    margin-right: 3px;
+    background: url('../image/icon/glyphicons-halflings-white.png') -22px -72px no-repeat;
+}
+
+#contact-details #address {
+    margin-left: 3px;
+}
+
+#sales-inq {
+    padding: 20px;
+    background: white;
+    float: right;
+    width: 205px;
+    height: 155px;
+    position: relative;
+    margin: 0;
+}
+
+#sales-inq .sales-inq-arrow {
+    top: 0px;
+    z-index: 10;
+    width: 18px;
+    height: 35px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-image: url('../image/icon_map_arrow.png');
+    left: 0;
+}
+
+#sales-general-inq {
+    font-weight: bold;
+}
+
+#sales-inq p.sales-general-inq {
     padding-bottom: 0 !important;
 }
 
-.page-contact div.contact-details-about ul li.contact-person {
+#sales-inq ul li.contact-person {
     padding: 0 !important;
+    font-weight: bold;
 }
 
-.page-contact div.contact-details-about li.contact-number {
-    margin-left: 10px !important;
+#sales-inq li.contact-number,
+#sales-inq li.contact-email {
+    margin-left: 5px !important;
     font-size: 12px;
+}
+
+#sales-inq li i {
+    width: 20px;
+    height: 20px;
+    background: #000;
+}
+
+#sales-inq li.contact-number i,
+#sales-inq li.contact-email i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+#sales-inq li.contact-number i {
+    background: url('../image/icon/glyphicons-halflings.png') -191px -113px no-repeat;
+}
+
+#sales-inq li.contact-email i {
+    background: url('../image/icon/glyphicons-halflings.png') -71px 7px no-repeat;
 }
