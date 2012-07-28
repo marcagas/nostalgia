@@ -1138,6 +1138,16 @@ div.more-eyeballs div {
     background: url('../image/logo_white.png') no-repeat;
 }
 
+#supersized-control {
+    position: absolute;
+    top: 590px;
+    right: 0;
+}
+
+#slidecaption {
+    height: 19px;
+}
+
 .bold {
     font-weight: bold;
 }
