@@ -31,11 +31,12 @@
                 Sales & General Inquiries
             </p>
             <ul class="no-list">
-                <li class="contact-person">Mike T</li>
+                <li class="contact-person mike"><i class="mike"></i><span class="name">Mike T</span></li>
                 <li class="contact-number"><i></i>0351759101</li>
-                <li class="contact-person">Christopher C</li>
+                <li class="contact-email"><i></i><a href="mailto:gumby@visualposters.com.au?Subject=Hello" target="_blank">gumby@visualposters.com.au</a></li>
+                <li class="contact-person chris"><i class="chris"></i><span class="name">Christopher C</span></li>
                 <li class="contact-number"><i></i>0351759105</li>
-                <li class="contact-email"><i></i><a href="mailto:info@visualposters.com.au?Subject=Hello" target="_blank">info@visualposters.com.au</a></li>
+                <li class="contact-email"><i></i><a href="mailto:pokey@visualposters.com.au?Subject=Hello" target="_blank">pokey@visualposters.com.au</a></li>
             </ul>
         </div>
 <!--        <div class="contact-details-map">

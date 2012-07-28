@@ -1325,8 +1325,9 @@ div.more-eyeballs div {
 }
 
 /* contact us page */
-.page-contact #contact-details {
-    height: 155px !important;
+.page-contact #contact-details,
+.page-contact #sales-inq {
+    height: 180px !important;
     margin-bottom: 15px;
 }
 
@@ -1352,9 +1353,12 @@ div.more-eyeballs div {
     background: white;
     float: right;
     width: 205px;
-    height: 155px;
     position: relative;
     margin: 0;
+}
+
+#sales-inq li {
+    line-height: 14px;
 }
 
 #sales-inq .sales-inq-arrow {
@@ -1380,12 +1384,37 @@ div.more-eyeballs div {
 #sales-inq ul li.contact-person {
     padding: 0 !important;
     font-weight: bold;
+    position: relative;
+}
+
+#sales-inq li.contact-person.chris {
+    margin-top: 10px;
+}
+
+#sales-inq .contact-person span.name {
+    padding-left: 20px;
+}
+
+#sales-inq .contact-person i {
+    position: absolute;
+}
+
+#sales-inq .contact-person i.mike {
+    background: url('../image/icon/gumby_small.png') -2px -1px no-repeat;
+}
+
+#sales-inq .contact-person i.chris {
+    background: url('../image/icon/pokey_small.png') -2px -1px no-repeat;
 }
 
 #sales-inq li.contact-number,
 #sales-inq li.contact-email {
     margin-left: 5px !important;
-    font-size: 12px;
+    font-size: 12px !important;
+}
+
+#sales-inq li.contact-email a {
+    font-size: 12px !important;
 }
 
 #sales-inq li i {
