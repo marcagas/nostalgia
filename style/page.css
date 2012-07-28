@@ -643,26 +643,27 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
 
 /* bandanas - about */
 #nostalgia-tab[data-class="home"],
+#nostalgia-tab[data-class="about"],
 #nostalgia-tab[data-class="pricing"],
 #nostalgia-tab-content[data-class="home"],
+#nostalgia-tab-content[data-class="about"],
 #nostalgia-tab-content[data-class="pricing"] .jspTrack,
+#nostalgia-tab-content[data-class="about"] .jspTrack,
 #nostalgia-tab-content[data-class="pricing"],
-#nostalgia-tab-content[data-class="pricing"] ul.social-list {
+#nostalgia-tab-content[data-class="pricing"] ul.social-list,
+#nostalgia-tab-content[data-class="about"] ul.social-list {
     background-color: #CBCF1A;
 }
 
+#nostalgia-tab-content[data-class="about"] .jspDrag,
 #nostalgia-tab-content[data-class="pricing"] .jspDrag {
     background-color: #9EA11A;
 }
 
-#nostalgia-tab[data-class="about"],
 #nostalgia-tab[data-class="contact"],
-#nostalgia-tab-content[data-class="about"],
-#nostalgia-tab-content[data-class="about"] .jspTrack,
 #nostalgia-tab-content[data-class="contact"] .jspTrack,
 #nostalgia-tab-content[data-class="contact"],
-#nostalgia-tab-content[data-class="contact"] ul.social-list,
-#nostalgia-tab-content[data-class="about"] ul.social-list {
+#nostalgia-tab-content[data-class="contact"] ul.social-list {
     background-color: #FFC003;
 }
 
@@ -1053,39 +1054,43 @@ p.package-deal, p.executive-take {
 }
 
 /* links */
-#side-navigation .home,
+#side-navigation .about,
 #side-navigation .pricing {
     background-color: #000;
 /*    background-color: #CBCF1A;*/
 }
-#side-navigation li a.home.active,
+#side-navigation li a.about.active,
 #side-navigation li a.pricing.active,
-#side-navigation .home:hover,
+#side-navigation .about:hover,
 #side-navigation .pricing:hover {
 /*    background-color: #CCCF5B;*/
     background-color: #CBCF1A;
 }
 
-#side-navigation .about,
 #side-navigation .contact{
     background-color: #000;
 /*    background-color: #FFC003;*/
 }
-#side-navigation li a.about.active,
+
+
 #side-navigation li a.contact.active,
-#side-navigation .about:hover,
+
 #side-navigation .contact:hover {
 /*    background-color: #FAD975;*/
     background-color: #FFC003;
 }
 
+#side-navigation .home,
 #side-navigation .works,
 #side-navigation .testimonials {
 /*    background-color: #F77B1B;*/
     background-color: #000;
 }
+
+#side-navigation li a.home.active,
 #side-navigation li a.works.active,
 #side-navigation li a.testimonials.active,
+#side-navigation .home:hover,
 #side-navigation .works:hover,
 #side-navigation .testimonials:hover {
 /*    background-color: #F2AF7C;*/
@@ -1135,6 +1140,15 @@ div.more-eyeballs div {
 
 .bold {
     font-weight: bold;
+}
+
+#show-page {
+    font-weight: bold;
+}
+
+#show-page:hover {
+    cursor: pointer !important;
+    color: white;
 }
 
 /* strike-post */

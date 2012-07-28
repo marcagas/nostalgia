@@ -132,12 +132,16 @@ $(document).ready(function()
             tab:'left',
             className:'checkmark'
         },
-        'works.html'		: {
+        'why_us.html'		: {
             tab:'right',
             className:'features'
         },
+        'works.html'		: {
+            tab:'left',
+            className:'features'
+        },
         'pricing.html'          : {
-            tab: 'left',
+            tab: 'right',
             className: 'checkmark'
         },
 //        'services.html'		: {
@@ -153,35 +157,35 @@ $(document).ready(function()
 //            className:'info'
 //        },
         'contact.php'		: {
-            tab:'right',
+            tab:'left',
             className:'mail'
         },
         'testimonials.html'		: {
-            tab:'left',
+            tab:'right',
             className:'checkmark'
         },
         'strike_post.html' : {
-            tab:'right',
+            tab:'left',
             className: 'features'
         },
         'dictator.html' : {
-            tab:'right',
+            tab:'left',
             className: 'features'
         },
         'rooftop_cinema.html' : {
-            tab:'right',
+            tab:'left',
             className: 'features'
         },
         'rod_stewart.html' : {
-            tab:'right',
+            tab:'left',
             className: 'features'
         },
         'mtv.html' : {
-            tab:'right',
+            tab:'left',
             className: 'features'
         },
         'rockstar.html' : {
-            tab:'right',
+            tab:'left',
             className: 'features'
         }
 //        'post.html'			: {

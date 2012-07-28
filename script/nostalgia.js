@@ -644,7 +644,7 @@
                 nextText:null,
                 prevText:null,
                 mode:'vertical',
-                displaySlideQty:6,
+                displaySlideQty:7,
                 infiniteLoop:true,
                 hideControlOnEnd:false,
                 wrapperClass:'bx-wrapper bx-wrapper-nostalgia-navigation-menu'
