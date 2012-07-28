@@ -202,6 +202,14 @@ $(document).ready(function()
         $('#nostalgia-tab').attr('data-selected', $(this).attr('data-class'));
     });
 
+    $('#nextslide').live('click', function() {
+       api.nextSlide();
+    });
+
+    $('#prevslide').live('click', function() {
+       api.prevSlide();
+    });
+
 });
 
 com = {};
