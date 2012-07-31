@@ -256,7 +256,10 @@ $(document).ready(function()
                },
                success: function(data) {
                    if (data.error === 0) {
-                       $('#call-us-form').dialog('destroy');
+                       $('#contact-us-dialog').dialog('destroy');
+
+                       //reset fields
+                       $('input#first-name, input#last-name, input#company-name, input#phone-number, input#email-details, input#worst-fear').val('');
                    } else {
 
                    }

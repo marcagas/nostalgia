@@ -73,11 +73,12 @@
         $response['error'] = 1;
         $response['info'][] = array('fieldId' => 'contact-send', 'message' => _msg_send_error);
         createResponse($response);
+        exit;
     }
 
     $response['error'] = 0;
     $response['info'][] = array('fieldId' => 'contact-send', 'message' => _msg_send_ok);
 
     createResponse($response);
-
+    exit;
 ?>
