@@ -1198,6 +1198,7 @@ div.more-eyeballs div {
 }
 
 /* side contact */
+#remember-telephones-wrapper,
 #side-contact-wrapper {
     background: #fff;
     top: 200px;
@@ -1207,6 +1208,7 @@ div.more-eyeballs div {
     z-index: 9;
 }
 
+#remember-telephones-wrapper.right,
 #side-contact-wrapper.right {
     right: 0;
     -webkit-border-top-left-radius: 6px;
@@ -1225,6 +1227,7 @@ div.more-eyeballs div {
     border-bottom-right-radius: 0;
 }
 
+#remember-telephones-wrapper.left,
 #side-contact-wrapper.left {
     -webkit-border-top-right-radius: 6px;
     -webkit-border-bottom-right-radius: 6px;
@@ -1244,6 +1247,7 @@ div.more-eyeballs div {
     left: 0;
 }
 
+#remember-telephones-details,
 #side-contact-details {
     padding: 5px;
     border: 1px solid black;
@@ -1251,6 +1255,7 @@ div.more-eyeballs div {
     margin: 8px;
 }
 
+#remember-telephones-details.right,
 #side-contact-details.right {
     margin: 8px 0 8px 8px;
     border-right: none;
@@ -1271,6 +1276,7 @@ div.more-eyeballs div {
     border-bottom-right-radius: 0;
 }
 
+#remember-telephones-details.left,
 #side-contact-details.left {
     -webkit-border-top-right-radius: 6px;
     -webkit-border-bottom-right-radius: 6px;
@@ -1292,6 +1298,7 @@ div.more-eyeballs div {
     border-left: none;
 }
 
+#remember-telephones-details span.header-plain,
 #side-contact-details span.header-plain {
     margin-top: 5px;
     display: inline-block;
@@ -1316,16 +1323,27 @@ div.more-eyeballs div {
     color: #000;
 }*/
 
+#remember-telephones-wrapper p,
 #side-contact-wrapper p {
     padding: 0;
-    line-height: 14px;
+/*    line-height: 14px;*/
 }
 
+#remember-telephones-wrapper p a,
 #side-contact-wrapper p a {
-    font-size: 12px;
-    color: #F77B1B;
+    line-height: 20px;
+    font-size: 1.5em;
+/*    font-size: 12px;*/
+    color: #000;
 }
 
+#remember-telephones p a:hover,
+#side-contact-wrapper p a:hover {
+    color: #F77B1B;
+    text-decoration: none;
+}
+
+#remember-telephones-wrapper p b,
 #side-contact-wrapper p b {
     padding: 0 10px 0 0;
 }
@@ -1446,4 +1464,63 @@ div.more-eyeballs div {
 
 #sales-inq li.contact-email i {
     background: url('../image/icon/glyphicons-halflings.png') -71px 7px no-repeat;
+}
+
+#call-us-form input {
+    width: 155px;
+    padding: 0;
+    font-family: Arial;
+
+    border-bottom-color: #EEE;
+    border-bottom-style: inset;
+    border-bottom-width: 2px;
+    border-left-color: #EEE;
+    border-left-style: inset;
+    border-left-width: 2px;
+    border-right-color: #EEE;
+    border-right-style: inset;
+    border-right-width: 2px;
+    border-top-color: #EEE;
+    border-top-style: inset;
+    border-top-width: 2px
+}
+
+#call-us-form {
+    font-size: 14px;
+    font-family: Arial;
+}
+
+#call-us-form p {
+    padding: 5px 0 5px;
+}
+
+#call-us-form button {
+    float: right;
+}
+
+#call-us-form button span.loader {
+    padding-left: 30px;
+    background-position: 8px 10px;
+}
+
+div.ui-widget-overlay {
+    background-color: #ccc;
+}
+
+div.ui-dialog-titlebar {
+    background: #ECB407;
+}
+
+#call-us-form label.error {
+    display: none !important;
+}
+
+#call-us-form input.error {
+    background-color: #EBD07F;
+}
+
+
+.loader {
+    padding-left: 20px;
+    background: url('../image/ajax-loader-light-gray.gif') no-repeat;
 }

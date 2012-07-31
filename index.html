@@ -34,6 +34,7 @@
         <script type="text/javascript" src="script/jquery.jScrollPane.js"></script>
         <script type="text/javascript" src="script/jquery.supersized.min.js"></script>
         <script type="text/javascript" src="script/jquery.supersized.shutter.min.js"></script>
+        <script type="text/javascript" src="script/jquery.validate.js"></script>
 
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
@@ -177,10 +178,10 @@
                 <p><b>Christopher C</b><br> 0351759105 | <a href="mailto:christopher@gmail.com" target="_blank">christopher@gmail.com</a></p>
             </section>
         </div>-->
-        <div id="side-contact-wrapper" class="hide">
-            <section id="side-contact-details">
-<!--                <p>Responsible Adults with phones and voicemail</p>-->
-<!--                <p>Contacts are a safe and socially acceptable alternative to glasses. Speaking of which, here are some people you might want to talk to.</p>-->
+        <div id="remember-telephones-wrapper" class="hide">
+            <div id="remember-telephones-details">
+<!--                <p>Responsible Adults with phones and voicemail</p>
+                <p>Contacts are a safe and socially acceptable alternative to glasses. Speaking of which, here are some people you might want to talk to.</p>-->
 
                 <span class="header-plain">REMEMBER TELEPHONES?</span>
 <!--                <p><b>Mike T</b><br /> 0351759101</p>-->
@@ -188,7 +189,34 @@
                     <p>a call at <b>1300 666 269</b></p>
 <!--                <p><b>Christopher C</b><br> 0351759105 | <a href="mailto:christopher@gmail.com" target="_blank">christopher@gmail.com</a></p>-->
 <!--                <p><b>Christopher C</b><br /> 0351759105 | email christopher</p>-->
-            </section>
+            </div>
+        </div>
+
+        <div id="side-contact-wrapper" class="hide">
+            <div id="side-contact-details">
+                <p class="bold"><a href="#" id="give-us-a-call">Have us give you  a call</a></p>
+            </div>
+        </div>
+
+        <div id="contact-us-dialog" class="hide">
+            <form action="plugin/contact-form/call-us-form.php" method="post" id="call-us-form">
+                <p class="intro-name">
+                    Hi! My name is <input type="text" placeholder="FIRST NAME" name="first_name" class="first-name required"></input> <input type="text" name="last_name" class="last-name required" placeholder="LAST NAME"></input>.
+                </p>
+                <p>
+                    I work for <input type="text" placeholder="COMPANY" name="company_name" class="company-name required">. When you get a chance, gimme a holler at
+                </p>
+                <p>
+                    <input type="text" placeholder="PHONE#" name="phone_number" class="phone-number required"> or shoot an email to <input type="text" name="email" placeholder="EMAIL" class="email required"> and we can chat.
+                </p>
+                <p>
+                    Just please don't bring up my crippling fear of <input type="text" name="worst_fear" placeholder="WORST FEAR" class="worst-fear required">.
+                </p>
+                <p class="last-part">
+                    Thanks!
+                </p>
+                <button type="submit" value="Submit">Submit</button>
+            </form>
         </div>
     </body>
 

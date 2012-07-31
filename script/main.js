@@ -210,6 +210,67 @@ $(document).ready(function()
        api.prevSlide();
     });
 
+    console.log('init');
+    $('#give-us-a-call').live('click', function(e) {
+       e.preventDefault();
+
+       $('#contact-us-dialog').dialog({
+          title: 'Give us a call',
+          modal: true,
+          closeOnEscape: true,
+          draggable: false,
+          width: 608,
+          height: 270,
+          resizeable: false,
+          minHeight: 270,
+          minWidth: 608,
+          maxHeight: 270,
+          maxWidth: 608
+       });
+
+       return false;
+    });
+
+    $('#call-us-form button').button();
+
+    $('#call-us-form').submit(function(e) {
+        var $this = $(this);
+
+       //validate
+       if (!$(this).valid()) {
+           alert('Please fill in valid data to all fields.');
+           return false;
+       } else {
+           var data = $this.serializeArray();
+           var url = $this.attr('action');
+           var method = $this.attr('method');
+
+           $.ajax({
+               url: url,
+               type: method,
+               dataType: 'json',
+               data: data,
+               beforeSend: function() {
+                   // add loader
+                   $('#call-us-form button span').addClass('loader');
+               },
+               success: function(data) {
+                   if (data.error === 0) {
+                       $('#call-us-form').dialog('destroy');
+                   } else {
+
+                   }
+               },
+               complete: function() {
+                   //remove loader
+                   $('#call-us-form button span').removeClass('loader');
+               }
+           });
+       }
+
+       return false;
+    });
+
 });
 
 com = {};
@@ -224,6 +285,8 @@ com.nostalgia.widgets.base = {
             'speedOut' : 200,
             'overlayShow' : false
         });
+
+
     },
 
     checkIfHomePage: function() {

@@ -179,7 +179,7 @@
             var tabOpen=$this.isOpen();
             var tabToOpen=this.getPageProperty($this.currentHash,'tab');
 
-            $('#side-contact-wrapper, #side-contact-details').fadeOut();
+            $('#side-contact-wrapper, #remember-telephones-wrapper').fadeOut();
 
             if((tabOpen===false) && (!forceOpen)) {
                 $this.moveNavigation(tabToOpen,{
@@ -300,11 +300,13 @@
 
         /******************************************************************/
         this.showSideContact = function(tabToOpen) {
-//            if (window.location.hash.indexOf('contact.php') > 0) {
-              $('#side-contact-wrapper, #side-contact-details').attr('class', tabToOpen == 'left' ? 'right' : 'left').fadeIn();
-//            } else {
-//                $('#side-contact-wrapper, #side-contact-details').hide();
-//            }
+            if (window.location.hash.indexOf('home.html') > 0) {
+              $('#remember-telephones-wrapper, #remember-telephones-details').attr('class', tabToOpen == 'left' ? 'right' : 'left').fadeIn();
+              $('#side-contact-wrapper, #side-contact-details').hide();
+            } else {
+                $('#side-contact-wrapper, #side-contact-details').attr('class', tabToOpen == 'left' ? 'right' : 'left').fadeIn();
+                $('#remember-telephones-wrapper, #remember-telephones-details').hide();
+            }
 
         },
         /******************************************************************/
