@@ -227,12 +227,12 @@ $(document).ready(function()
     $('#give-us-a-call').live('click', function(e) {
         e.preventDefault();
         var settings = $.extend({}, dialogSettings, {
-            width: 608,
+            width: 560,
             height: 270,
             minHeight: 270,
-            minWidth: 608,
+            minWidth: 560,
             maxHeight: 270,
-            maxWidth: 608
+            maxWidth: 560
         });
 
         $('#contact-us-dialog').dialog(settings);
@@ -285,11 +285,14 @@ $(document).ready(function()
            var method = $this.attr('method');
 
            if ($this.attr('id') === 'call-us-form') {
-               $.extend(data, {'call_us': true});
+//               $.extend(data, {'call_us': true});
+               data.push({'name': 'call_us', 'value': 'true'});
            } else if ($this.attr('id') === 'best-package-contact-form') {
-               $.extend(data, {'best_package': true});
+//               $.extend(data, {'best_package': true});
+                data.push({'name': 'best_package', 'value': 'true'});
            } else if ($this.attr('id') === 'broadcast-package-contact-form') {
-               $.extend(data, {'broadcast_package': true});
+//               $.extend(data, {'broadcast_package': true});
+                data.push({'name': 'broadcast_package', 'value': 'true'});
            }
 
            $.ajax({

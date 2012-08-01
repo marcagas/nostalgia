@@ -12,7 +12,7 @@
 
     <body>
         <div><h1>Best Package Contact Form</h1></div>
-        <div><b>Work For: </b><?php echo $values['company_name'] ?></div>
+        <div><b>Work For: </b><?php echo $values['company_name']; ?></div>
         <div><b>Phone Number</b>: <?php echo $values['phone_number']; ?></div>
     </body>
 

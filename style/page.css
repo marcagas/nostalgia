@@ -1384,6 +1384,30 @@ div.more-eyeballs div {
     padding: 0 10px 0 0;
 }
 
+#side-contact-wrapper i.give-us-call-icon {
+    width: 35px;
+    height: 32px;
+    position: absolute;
+    right: 86px;
+    bottom: 8px;
+    background: url('../image/call_small.png') no-repeat;
+    background-size: 26px 25px;
+}
+
+#side-contact-details.left i.give-us-call-icon {
+    right: 93px;
+}
+
+#remember-telephones-wrapper i.call-us-icon {
+    width: 20px;
+    height: 27px;
+    position: absolute;
+    right: 35px;
+    bottom: 11px;
+    background: url('../image/call_small.png') no-repeat;
+    background-size: 24px 23px;
+}
+
 .hide {
     display: none;
 }
@@ -1522,7 +1546,7 @@ div.more-eyeballs div {
 }
 
 .contact-form {
-    font-size: 14px;
+    font-size: 12px;
     font-family: Arial;
 }
 
@@ -1536,7 +1560,7 @@ div.more-eyeballs div {
 
 .contact-form button span.loader {
     padding-left: 30px;
-    background-position: 8px 10px;
+    background-position: 8px 7px;
 }
 
 div.ui-widget-overlay {
