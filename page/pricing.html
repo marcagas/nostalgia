@@ -15,13 +15,16 @@
     </p>
 
     <div class="nostalgia-accordion">
-        <h3><a href="#">Best Package - $4995</a></h3>
+        <h3><a href="#">Best Package <span class="amount">$4995</span></a></h3>
         <div class="packages">
 <!--            <p class="lead">RECOMMENDED FOR : APPLE, MCDONALDS, SONY, CHANNEL 9,  WOOLWORTHS, TOYOTA, AFL, RED BULL</p>-->
 <!--            <p>
                 Ok, we could have been more creative with the name, but
                 here’s the package to kick-start any revolution :
             </p>-->
+            <div class="buy-button">
+                <a id="best-package-btn" href="#"><i class="icon"></i>Buy</a>
+            </div>
             <span class="recommend">Recommended for:</span>
             <div id="best-package-recommended-brands">
 
@@ -51,8 +54,6 @@
                 </span>
             </div>
 
-            <div id="best-package-img">
-            </div>
             <p>
                 Ok, we could have been more creative with the name, but
                 here’s the package to kick-start any revolution :
@@ -112,8 +113,12 @@
             </div>
         </div>
 
-        <h3><a href="#">Broadcast Package - $3650</a></h3>
+        <h3><a href="#">Broadcast Package <span class="amount">$3650</span></a></h3>
         <div class="packages">
+            <div class="buy-button">
+                <a id="broadcast-package-btn" href="#"><i class="icon"></i>Buy</a>
+            </div>
+
             <span class="recommend">Recommended for:</span>
             <div id="broadcast-package-recommended-brands">
 
@@ -205,8 +210,12 @@
 
 <!--        small packages-->
 
-        <h3 aria-expanded="false"><a href="#">Small Miracles Package - $2995</a></h3>
+        <h3 aria-expanded="false"><a href="#">Small Miracles Package <span class="amount">$2995</span></a></h3>
         <div class="packages">
+<!--            <div class="buy-button">
+                <a id="small-package-btn" href="#"><i class="icon"></i>Buy</a>
+            </div>-->
+
             <span class="recommend">Recommended for:</span>
             <div id="small-package-recommended-brands">
 
@@ -282,4 +291,25 @@
             </div>
         </div>
     </div>
+</div>
+
+<div id="best-package-contact-dialog" class="hide contact-dialog">
+    <form action="plugin/contact-form/call-us-form.php" method="post" class="contact-form" id="best-package-contact-form">
+        <p>
+            Hi, I'm desperately wanting to buy the "BEST" advertising package. I work for
+            <input type="text" name="company_name" class="required" placeholder="COMPANY NAME" />
+            so please call me on <input type="text" name="phone_number" class="required" placeholder="PHONE#"  />. PS: You put the "zing" in amazing.
+        </p>
+        <button type="submit" value="Submit" class="prettify-button">Submit</button>
+    </form>
+</div>
+<div id="broadcast-package-contact-dialog" class="hide contact-dialog">
+    <form action="plugin/contact-form/call-us-form.php" method="post" class="contact-form" id="broadcast-package-contact-form">
+        <p>
+            Hi, I'm desperately wanting to buy the "BROADCAST" advertising package. I work for
+            <input type="text" name="company_name" class="required" placeholder="COMPANY NAME" />
+            so please call me on <input type="text" name="phone_number" class="required" placeholder="PHONE#"  />. PS: You put the "zing" in amazing.
+        </p>
+        <button type="submit" value="Submit" class="prettify-button">Submit</button>
+    </form>
 </div>

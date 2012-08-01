@@ -15,7 +15,7 @@
 
         <div id="contact-details" class="contact-details-about">
             <p>
-                <span id="visual-poster" class="bold">Visual Poster</span><br />
+                <span id="visual-poster" class="bold">Visual Posters</span><br />
                 1300 662 502<br />
                 <i id="location"></i><span id="address">20B Janette Street, Traralgon, 3844 <br />(a Frontone Pty Ltd company)</span>
             </p>

@@ -210,30 +210,69 @@ $(document).ready(function()
        api.prevSlide();
     });
 
-    console.log('init');
-    $('#give-us-a-call').live('click', function(e) {
-       e.preventDefault();
+    var dialogSettings = {
+        title: 'Contact Form',
+        modal: true,
+        closeOnEscape: true,
+        draggable: false,
+        resizeable: false,
+        show: {
+           effect: 'fade'
+        },
+        hide: {
+           effect: 'fade'
+        }
+    };
 
-       $('#contact-us-dialog').dialog({
-          title: 'Give us a call',
-          modal: true,
-          closeOnEscape: true,
-          draggable: false,
-          width: 608,
-          height: 270,
-          resizeable: false,
-          minHeight: 270,
-          minWidth: 608,
-          maxHeight: 270,
-          maxWidth: 608
-       });
+    $('#give-us-a-call').live('click', function(e) {
+        e.preventDefault();
+        var settings = $.extend({}, dialogSettings, {
+            width: 608,
+            height: 270,
+            minHeight: 270,
+            minWidth: 608,
+            maxHeight: 270,
+            maxWidth: 608
+        });
+
+        $('#contact-us-dialog').dialog(settings);
 
        return false;
     });
 
+    $('#best-package-btn').live('click', function(e) {
+        e.preventDefault();
+        var settings = $.extend({}, dialogSettings, {
+           width: 410,
+           height: 210,
+           minHeight: 210,
+           minWidth: 410,
+           maxWidth: 410,
+           maxHeight: 210
+        });
+        $('#best-package-contact-dialog').dialog(settings);
+
+        return false;
+    });
+
+    $('#broadcast-package-btn').live('click', function(e) {
+       e.preventDefault();
+       var settings = $.extend({}, dialogSettings, {
+           width: 410,
+           height: 210,
+           minHeight: 210,
+           minWidth: 410,
+           maxWidth: 410,
+           maxHeight: 210
+       });
+
+       $('#broadcast-package-contact-dialog').dialog(settings);
+        return false;
+    });
+
     $('#call-us-form button').button();
 
-    $('#call-us-form').submit(function(e) {
+    $('form.contact-form').live('submit', function(e) {
         var $this = $(this);
 
        //validate
@@ -245,6 +284,14 @@ $(document).ready(function()
            var url = $this.attr('action');
            var method = $this.attr('method');
 
+           if ($this.attr('id') === 'call-us-form') {
+               $.extend(data, {'call_us': true});
+           } else if ($this.attr('id') === 'best-package-contact-form') {
+               $.extend(data, {'best_package': true});
+           } else if ($this.attr('id') === 'broadcast-package-contact-form') {
+               $.extend(data, {'broadcast_package': true});
+           }
+
            $.ajax({
                url: url,
                type: method,
@@ -252,26 +299,29 @@ $(document).ready(function()
                data: data,
                beforeSend: function() {
                    // add loader
-                   $('#call-us-form button span').addClass('loader');
+                   $('button span', $this).addClass('loader');
                },
                success: function(data) {
                    if (data.error === 0) {
-                       $('#contact-us-dialog').dialog('destroy');
+                       $this.closest('.contact-dialog').dialog('destroy');
 
                        //reset fields
-                       $('input#first-name, input#last-name, input#company-name, input#phone-number, input#email-details, input#worst-fear').val('');
+                       $('input', $this).val('');
                    } else {
-
+                       alert('Please provide valid details.');
                    }
                },
                complete: function() {
                    //remove loader
-                   $('#call-us-form button span').removeClass('loader');
+                   $('button span', $this).removeClass('loader');
+               },
+               error: function() {
+                   alert('An error has occured');
                }
-           });
+            });
        }
 
-       return false;
+        return false;
     });
 
 });
@@ -289,7 +339,7 @@ com.nostalgia.widgets.base = {
             'overlayShow' : false
         });
 
-
+        $('#best-package-btn, #broadcast-package-btn, #small-package-btn, .prettify-button').button();
     },
 
     checkIfHomePage: function() {

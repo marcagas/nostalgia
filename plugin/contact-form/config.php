@@ -2,14 +2,15 @@
 
     define('_template_path','template/default.php');
     define('_template_call_us_path','template/call_us.php');
+    define('_template_best_package_path','template/best_package.php');
 
-    define('_from_name','marc_test@visualposters.com.au');
-    define('_from_email','marc_test@visualposters.com.au');
+    define('_from_name','info@visualposters.com.au');
+    define('_from_email','info@visualposters.com.au');
 
-//    define('_to_name','info@visualposters.com.au');
-//    define('_to_email','info@visualposters.com.au');
-    define('_to_name','marclambertagas@gmail.com');
-    define('_to_email','marclambertagas@gmail.com');
+    define('_to_name','info@visualposters.com.au');
+    define('_to_email','info@visualposters.com.au');
+//    define('_to_name','marclambertagas@gmail.com');
+//    define('_to_email','marclambertagas@gmail.com');
 
     define('_smtp_host','');
     define('_smtp_username','');

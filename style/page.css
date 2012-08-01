@@ -971,6 +971,41 @@ ul.testimonial-list {
     top: 5px;
 }
 
+.page-pricing span.amount {
+    float: right;
+    margin-right: 40px;
+}
+
+.page-pricing .buy-button a {
+    border: 1px solid #ccc !important;
+    background: #E6E6E6 url(../style//images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x !important;
+    font-weight: normal;
+    color: #555;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.page-pricing .buy-button a:active,
+.page-pricing .buy-button a:hover {
+    border: 1px solid #999;
+    background: #DADADA url(../style/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x !important;
+    font-weight: normal;
+    color: #212121;
+}
+
+.page-pricing .buy-button span {
+    padding-left: 28px;
+}
+
+.page-pricing .buy-button span i {
+    width: 20px;
+    height: 20px;
+    background: url('../image/icon/glyphicons-halflings.png') -356px -117px no-repeat;
+    position: absolute;
+    left: 5px;
+}
+
 #non-profit {
     margin-top: 50px;
 }
@@ -1016,7 +1051,8 @@ p.package-deal, p.executive-take {
 
 
 .pricing-questions .answer {
-    background-color: #91D91E;
+/*    background-color: #91D91E;*/
+    background-color: #72AB07;
     padding: 2px 0 0 30px;
     overflow: hidden;
     width: auto;
@@ -1466,7 +1502,7 @@ div.more-eyeballs div {
     background: url('../image/icon/glyphicons-halflings.png') -71px 7px no-repeat;
 }
 
-#call-us-form input {
+.contact-form input {
     width: 155px;
     padding: 0;
     font-family: Arial;
@@ -1485,20 +1521,20 @@ div.more-eyeballs div {
     border-top-width: 2px
 }
 
-#call-us-form {
+.contact-form {
     font-size: 14px;
     font-family: Arial;
 }
 
-#call-us-form p {
+.contact-form p {
     padding: 5px 0 5px;
 }
 
-#call-us-form button {
+.contact-form button {
     float: right;
 }
 
-#call-us-form button span.loader {
+.contact-form button span.loader {
     padding-left: 30px;
     background-position: 8px 10px;
 }
@@ -1511,14 +1547,17 @@ div.ui-dialog-titlebar {
     background: #ECB407;
 }
 
-#call-us-form label.error {
+.contact-form label.error {
     display: none !important;
 }
 
-#call-us-form input.error {
+.contact-form input.error {
     background-color: #EBD07F;
 }
 
+#best-package-contact-form p {
+    line-height: 28px;
+}
 
 .loader {
     padding-left: 20px;
