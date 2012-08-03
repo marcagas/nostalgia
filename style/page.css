@@ -1532,6 +1532,15 @@ div.more-eyeballs div {
     background: url('../image/icon/glyphicons-halflings.png') -71px 7px no-repeat;
 }
 
+#contact-us-img {
+    background: url('../image/call_us_small.png') no-repeat;
+    width: 76px;
+    height: 100px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
 .contact-form input {
     width: 155px;
     padding: 0;
@@ -1557,7 +1566,7 @@ div.more-eyeballs div {
 }
 
 .contact-form p {
-    padding: 5px 0 5px;
+    padding: 12px 0 5px;
 }
 
 .contact-form button {
@@ -1574,7 +1583,8 @@ div.ui-widget-overlay {
 }
 
 div.ui-dialog-titlebar {
-    background: #ECB407;
+/*    background: #ECB407;*/
+    color: #444;
 }
 
 .contact-form label.error {
@@ -1582,7 +1592,8 @@ div.ui-dialog-titlebar {
 }
 
 .contact-form input.error {
-    background-color: #EBD07F;
+/*    background-color: #EBD07F;*/
+    background-color: #ccc;
 }
 
 #best-package-contact-form p {
