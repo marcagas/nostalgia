@@ -989,7 +989,7 @@ ul.testimonial-list {
     -moz-border-radius: 6px;
     border-radius: 6px;
     float: right;
-    margin-right: 40px;
+/*    margin-right: 40px;*/
 }
 
 .page-pricing .buy-button a:active,
@@ -1607,16 +1607,16 @@ div.ui-dialog-titlebar {
 
 /* page why-us */
 .page-why-us li.service {
-    background: url('../image/icon/services.png') no-repeat;
+    background: url('../image/icon/img-good.png') no-repeat;
 }
 .page-why-us li.price {
     background: url('../image/icon/low-price-guarantee-small.png') no-repeat;
 }
 .page-why-us li.distribution {
-    background: url('../image/icon/distributions-pentubuntu-small.png') no-repeat;
+    background: url('../image/icon/img-distributor.png') no-repeat;
 }
 .page-why-us li.speed {
-    background: url('../image/icon/speed.png') no-repeat;
+    background: url('../image/icon/img-speed.png') no-repeat;
 }
 .page-why-us li.guarantee {
     background: url('../image/icon/guarantee.png') no-repeat;
