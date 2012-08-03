@@ -976,6 +976,10 @@ ul.testimonial-list {
     margin-right: 40px;
 }
 
+.page-pricing .buy-button {
+    margin-bottom: 20px;
+}
+
 .page-pricing .buy-button a {
     border: 1px solid #ccc !important;
     background: #E6E6E6 url(../style//images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x !important;
@@ -984,6 +988,8 @@ ul.testimonial-list {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
+    float: right;
+    margin-right: 40px;
 }
 
 .page-pricing .buy-button a:active,
@@ -1586,4 +1592,25 @@ div.ui-dialog-titlebar {
 .loader {
     padding-left: 20px;
     background: url('../image/ajax-loader-light-gray.gif') no-repeat;
+}
+
+/* page why-us */
+.page-why-us li.service {
+    background: url('../image/icon/services.png') no-repeat;
+}
+.page-why-us li.price {
+    background: url('../image/icon/low-price-guarantee-small.png') no-repeat;
+}
+.page-why-us li.distribution {
+    background: url('../image/icon/distributions-pentubuntu-small.png') no-repeat;
+}
+.page-why-us li.speed {
+    background: url('../image/icon/speed.png') no-repeat;
+}
+.page-why-us li.guarantee {
+    background: url('../image/icon/guarantee.png') no-repeat;
+}
+
+.page-why-us p.strong-subtitle {
+    font-weight: bold;
 }
