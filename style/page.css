@@ -1533,12 +1533,12 @@ div.more-eyeballs div {
 }
 
 #contact-us-img {
-    background: url('../image/call_us_small.png') no-repeat;
-    width: 76px;
+    background: url('../image/goomba.png') no-repeat;
+    width: 100px;
     height: 100px;
     position: absolute;
     right: 5px;
-    top: 0;
+    top: 3px;
 }
 
 .contact-form input {
