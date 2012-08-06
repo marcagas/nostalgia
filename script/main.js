@@ -211,7 +211,7 @@ $(document).ready(function()
     });
 
     var dialogSettings = {
-        title: 'Contact Form',
+        title: 'WE MIGHT BE PERFECT FOR EACH OTHER',
         modal: true,
         closeOnEscape: true,
         draggable: false,

@@ -1170,6 +1170,29 @@ div.more-eyeballs div {
     margin-top: 10px;
 }
 
+#supersized-control {
+    width: 394px;
+}
+
+#nextslide, #prevslide {
+    color: white;
+    width: auto;
+    line-height: 32px;
+    font-size: 10px;
+}
+
+#nextslide {
+    padding: 0 20px 0 8px;
+    line-height: 33px;
+    background-position: 55px 0;
+}
+
+#prevslide {
+    padding: 0 8px 0 20px;
+    background-position: -8px 0;
+    line-height: 33px;
+}
+
 #home-intro {
     margin-top: 2px;
     background: #FFC001;
