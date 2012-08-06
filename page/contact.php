@@ -49,7 +49,7 @@
         Meeting exciting people, starting new projects and concepts is what makes us tick. So go on, get in touch.. We work quite hard and luckily we LOVE it!
     </p>
 
-    <h3>EMAIL FORM</h3>
+    <h3>WE MIGHT BE PERFECT FOR EACH OTHER</h3>
     <p>
         One quick favor to make our conversation more productive, let us know what event you're working on and a phone number so we can give you great advice.
     </p>
