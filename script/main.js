@@ -227,12 +227,12 @@ $(document).ready(function()
     $('#give-us-a-call').live('click', function(e) {
         e.preventDefault();
         var settings = $.extend({}, dialogSettings, {
-            width: 590,
-            height: 275,
-            minHeight: 275,
-            minWidth: 590,
-            maxHeight: 275,
-            maxWidth: 590
+            width: 632,
+            height: 295,
+            minHeight: 295,
+            minWidth: 632,
+            maxHeight: 295,
+            maxWidth: 632
         });
 
         $('#contact-us-dialog').dialog(settings);

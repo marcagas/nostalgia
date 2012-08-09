@@ -1590,12 +1590,15 @@ div.more-eyeballs div {
 }
 
 #contact-us-img {
-    background: url('../image/goomba.png') no-repeat;
-    width: 100px;
-    height: 100px;
+    background: url('../image/goomba.jpg') no-repeat;
+/*    width: 100px;*/
+/*    height: 100px;*/
     position: absolute;
     right: 5px;
     top: 3px;
+    background-size: 160px 91px;
+    width: 160px;
+    height: 91px;
 }
 
 .contact-form input {
@@ -1624,6 +1627,7 @@ div.more-eyeballs div {
 
 .contact-form p {
     padding: 12px 0 5px;
+/*    margin-left: 152px;*/
 }
 
 .contact-form button {
