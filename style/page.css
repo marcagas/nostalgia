@@ -160,7 +160,7 @@ ul.image-list div.image-list-caption div.image-list-caption-subtitle
 /**********************************************************************/
 
 a.fancybox-image,
-a.work-img,
+/*a.work-img,*/
 a.fancybox-video
 {
     width:230px;
@@ -173,13 +173,13 @@ a.fancybox-video
 }
 
 .page-post a.fancybox-image, a.work-img,
-.page-works a.fancybox-image, a.work-img,
+/*.page-works a.fancybox-image, a.work-img,*/
 .page-testimonials a.fancybox-image, a.work-img {
     background-image: url('../image/ajax-loader-orange.gif');
 }
 
 a.fancybox-image img,
-a.work-img img,
+/*a.work-img img,*/
 a.fancybox-video img
 {
     display:none;
@@ -816,11 +816,6 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
     background: url('../image/icon/glyphicons-halflings.png') -262px -96px no-repeat;
 }
 
-.image-list img {
-    width: 230px;
-    height: 150px;
-}
-
 /* works */
 .works-list h2{
     font-size: 24px;
@@ -840,13 +835,32 @@ div.page-contact div.contact-details-map div.contact-details-map-arrow
     white-space: nowrap;
 }
 
-.great-works a.work-img {
+.great-works div.image-container {
+    width: 230px;
+    height: 150px;
+    background-color: #FFF;
+    text-align: center;
+}
 
+.great-works a.work-img {
+    width: 100%;
+    height: 100%;
+    position:relative;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-image: url('../image/ajax-loader-orange.gif');
 }
 
 .great-works img {
     height: auto;
     max-height: 150px;
+    display:none;
+    position:relative;
+}
+
+.great-works a.work-img span {
+    top: 0;
+    left: 0;
 }
 
 /* testimonials page */
@@ -1249,17 +1263,37 @@ div.more-eyeballs div {
     background: url('../image/icon/glyphicons-halflings.png') -239px -96px no-repeat;
 }
 
-.page-post div.post-image {
-    overflow: hidden;
+.page-post #dictator-poster-img {
+    margin: -50px 0 0 95px;
 }
 
 .page-post div.post-image > a {
     overflow: hidden;
+    background-color: white;
 }
 
-.page-post div.post-image img {
-    width: 490px;
-    height: 300px;
+#strike-post-img img{
+    margin: -162px 0 0 -70px;
+}
+
+#rooftop-poster-img {
+    margin: -310px 0 0;
+}
+
+#rodstewart-post-img {
+    margin: -160px 0 0 -100px;
+}
+
+#mtv-post-img1 {
+    margin: -100px 0 0 0;
+}
+
+#mtv-post-img2 {
+    margin: -105px 0 0 0;
+}
+
+#rockstar-post-img {
+    margin: -18px 0 0 -289px;
 }
 
 /* side contact */
