@@ -1589,8 +1589,15 @@ div.more-eyeballs div {
     background: url('../image/icon/glyphicons-halflings.png') -71px 7px no-repeat;
 }
 
+#ui-dialog-title-contact-us-dialog {
+    background: url('../image/goomba_50x28.png') no-repeat;
+    padding-left: 54px;
+    background-size: 50px 28px;
+    background-position: 0px -3px;
+}
+
 #contact-us-img {
-    background: url('../image/goomba.jpg') no-repeat;
+    background: url('../image/goomba.png') no-repeat;
 /*    width: 100px;*/
 /*    height: 100px;*/
     position: absolute;
