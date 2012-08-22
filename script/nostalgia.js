@@ -272,6 +272,7 @@
             } else if (tab.find('.page-about').length) {
                 wittyText = 'No one even asked me if I wanted pizza today. Well I do.';
             } else if (tab.find('.page-works').length) {
+//                $('ul.great-works li:even').addClass('even');
                 wittyText = "Thanks for the CPR, you're a real lifesaver!";
             } else if (tab.find('.page-pricing').length) {
                 wittyText = 'Change is inevitable, except from a vending machine.';

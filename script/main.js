@@ -327,6 +327,8 @@ $(document).ready(function()
         return false;
     });
 
+    $('.industries a').live('click', com.nostalgia.widgets.base.switchExamples);
+
 });
 
 com = {};
@@ -352,5 +354,39 @@ com.nostalgia.widgets.base = {
         } else {
             $('#nostalgia-tab-content, #nostalgia-tab').removeClass('no-background');
         }
+    },
+
+    switchExamples: function(e) {
+        e.preventDefault();
+
+        var $this = $(this);
+        $('.industries a').removeClass('active');
+        $this.addClass('active');
+
+        var id = $this.attr('id');
+        var works = $('.great-works');
+        var set;
+        works.find('li').hide();
+
+        switch(id) {
+            case 'concert-events':
+                set = works.find('li.concert');
+                break;
+            case 'liquor-drugs':
+                set = works.find('li.drugs');
+                break;
+            case 'leisure-entertainment':
+                set = works.find('li.leisure, li.entertainment');
+                break;
+            case 'activism-social':
+                set = works.find('li.social');
+                break;
+        }
+        
+        set.fadeIn('slow');
+        set.filter(':even').addClass('even').removeClass('odd');
+        set.filter(':odd').removeClass('even').addClass('odd');
+
+        return false;
     }
 };
