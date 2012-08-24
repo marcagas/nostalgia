@@ -6,7 +6,6 @@
     <h1>Contact US</h1>
 <!--    <p class="subtitle-paragraph">So go on, get in touch.. We work quite hard and luckily we LOVE it!</p>-->
     <p class="subtitle-paragraph"><span class="bold">Responsible Adults with phones and voicemail </span></p>
-    <p class="subtitle-paragraph">Contacts are a safe and socially acceptable alternative to glasses. Speaking of which, here are some people you might want to talk to.</p>
     <!--/ Header + subtitle -->
 
     <!-- Personal details + Google map -->
