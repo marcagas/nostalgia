@@ -46,8 +46,10 @@
     </div>
     <p>
         Serving up excellence every weekday till 9pm.
-        Meeting exciting people, starting new projects and concepts is what makes us tick. So go on, get in touch.. We work quite hard and luckily we LOVE it!
     </p>
+    <!--
+    Meeting exciting people, starting new projects and concepts is what makes us tick. So go on, get in touch.. We work quite hard and luckily we LOVE it!
+    -->
 
     <h3>WE MIGHT BE PERFECT FOR EACH OTHER</h3>
     <p>
