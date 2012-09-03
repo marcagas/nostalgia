@@ -1381,7 +1381,7 @@ div.more-eyeballs div {
     background: #fff;
     top: 200px;
     position: fixed;
-    width: 180px;
+    width: 182px;
     font-size: 12px;
     z-index: 9;
 }
@@ -1753,6 +1753,9 @@ div.ui-dialog-titlebar {
 }
 
 /* page why-us */
+.page-why-us #why-us-list {
+    margin-top: 25px;
+}
 .page-why-us li.service {
     background: url('../image/icon/img-good.png') no-repeat;
 }
@@ -1768,7 +1771,20 @@ div.ui-dialog-titlebar {
 .page-why-us li.guarantee {
     background: url('../image/icon/guarantee.png') no-repeat;
 }
+.page-why-us li.experience {
+    background: url('../image/icon/img-prepared2.png') no-repeat;
+}
+.page-why-us li.expertise {
+    background: url('../image/icon/img-honest2.png') no-repeat;
+}
+.page-why-us li.national-distribution {
+    background: url('../image/icon/distributions-pentubuntu-small.png') no-repeat;
+}
+.page-why-us li.quality-service {
+    background: url('../image/icon/quality.png') no-repeat;
+}
 
 .page-why-us p.strong-subtitle {
     font-weight: bold;
 }
+
